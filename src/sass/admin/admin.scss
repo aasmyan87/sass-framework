@@ -1,0 +1,27 @@
+@import "../abstracts/variables-theme";
+//  Logged in layout styles
+.logged-in{
+  #wpadminbar{
+    @media screen and (max-width: $media_after_collapse) and (min-width: 782px){
+      margin-top: -32px;
+    }
+    @media screen and (max-width: 783px){
+      display: none !important;
+    }
+  }
+  .md-header{
+    @media screen and (min-width: $media_before_collapse){
+      top: 32px !important;
+    }
+  }
+  @media screen and (max-width: $media_after_collapse) and (min-width: 782px) {
+    transform: translate(0, 32px);
+  }
+}
+.logged-in{
+  .md-main{
+    @media screen and (min-width: $media_before_collapse){
+      padding-top: 32px;
+    }
+  }
+}

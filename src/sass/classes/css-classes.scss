@@ -1,0 +1,54 @@
+@import "../abstracts/variables-theme";
+
+//  CLASS: link color (example: link-purple)
+@include link-color(purple, #cd1bcd, #cd1bcd, #c927c9, false, false);
+
+//  lists
+.list-reset{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+//  Bootstrap class generator
+$utilities: (
+    "background-color": (
+        property: background-color,
+        class: bg,
+        values: map-merge(
+            $theme-colors, ()
+        )
+    ),
+    "color": (
+        property: color,
+        class: color,
+        values: map-merge(
+            $theme-colors, ()
+        )
+    ),
+    "border-bottom": (
+        property: border-bottom,
+        class: brd,
+        values: (
+            bottom: 1px solid
+        )
+    ),
+    "border-color" :(
+        property: border-color,
+        class: brd,
+        values: map-merge(
+            $theme-colors, ()
+        )
+    ),
+    "text-align": (
+        property: text-align,
+        class: text,
+        values: (
+            left: left,
+            right: right,
+            center: center,
+        )
+    ),
+);
+
+@import "../../bootstrap/utilities/api";

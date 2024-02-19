@@ -1,0 +1,11 @@
+@import "../abstracts/variables-theme";
+
+.md-main{
+  flex-grow: 1;
+}
+.md-main, .md-header, .md-footer{
+  max-width: 2200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}

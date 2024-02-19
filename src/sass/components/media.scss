@@ -1,0 +1,19 @@
+.obj-img{
+  position: relative;
+  display: block;
+}
+.obj-img img{
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.md-col-img{
+  padding-bottom: 50%;
+}
