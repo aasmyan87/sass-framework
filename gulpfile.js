@@ -52,7 +52,7 @@ gulp.task('copy', function () {
 // Compile Sass files and minify output file
 gulp.task('sass', function () {
     return gulp.src([
-        'src/sass/**/*'
+        'src/sass/**/!(_abstracts)/*.scss'
     ])
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
@@ -66,16 +66,25 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('./dist/css'))
 });
 
-
-// Concatenate js files and minify output file
-gulp.task('scripts', function () {
+// Task for non-minified JavaScript
+gulp.task('scripts-clean', function () {
     return gulp.src([
         // Child themes scripts
-        './src/js/**/*',
+        './src/js/**/*.js',
     ])
-        .pipe(gulp.dest('./dist/js/'))
-        .pipe(uglify())
+        .pipe(gulp.dest(`${wp_path}js`));
+});
 
+// Task for minified JavaScript
+gulp.task('scripts-min', function () {
+    return gulp.src([
+        // Child themes scripts
+        './src/js/**/!(*vendor*)/*.js',
+    ])
+        .pipe(gulp.dest(`${wp_path}js`))
+        .pipe(uglify())
+        .pipe(rename({ suffix: '.min' }))
+        .pipe(gulp.dest(`${wp_path}js`));
 });
 
 // Watch
@@ -113,7 +122,7 @@ gulp.task('watch', function () {
         'copy'
     ]);
 });
-gulp.task('run', ['sass', 'scripts', 'php', 'copy', 'watch']);
+gulp.task('run', ['sass', 'scripts-clean', 'scripts-min', 'php', 'copy', 'watch']);
 gulp.task('default', ['run']);
 gulp.task('html', ['beautify-html', 'beautify-html-examples']);
 
