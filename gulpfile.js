@@ -72,7 +72,7 @@ gulp.task('scripts-clean', function () {
         // Child themes scripts
         './src/js/**/*.js',
     ])
-        .pipe(gulp.dest(`${wp_path}js`));
+        .pipe(gulp.dest('./dist/js'));
 });
 
 // Task for minified JavaScript
@@ -81,10 +81,10 @@ gulp.task('scripts-min', function () {
         // Child themes scripts
         './src/js/**/!(*vendor*)/*.js',
     ])
-        .pipe(gulp.dest(`${wp_path}js`))
+        .pipe(gulp.dest('./dist/js'))
         .pipe(uglify())
         .pipe(rename({ suffix: '.min' }))
-        .pipe(gulp.dest(`${wp_path}js`));
+        .pipe(gulp.dest('./dist/js'));
 });
 
 // Watch
