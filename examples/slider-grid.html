@@ -1,307 +1,301 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Slider-grid</title>    <meta name="description" content="Some Description Here">
+    <title>Slider-grid</title>
+    <meta name="description" content="Some Description Here">
     <!-- Include Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
-        <!-- Favicon -->
-        <link rel="icon" type="image/png" href="../dist/images/favicon.png"/>
-        <!-- Include CSS -->
-            <link rel="stylesheet" href="../dist/css/vendor/bootstrap.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/components/normalize.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/vendor/icons.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/components/typography.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/components/media.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/components/inputs.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/components/buttons.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/components/switch.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/components/checkbox-radio-out.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/components/checkbox-radio-in.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/layout/header.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/layout/desktop-menu.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/layout/mobile-menu.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/layout/layout.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/layout/sections.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/layout/sidebar.css" media="all"/>
-                    <link rel="stylesheet" href="../dist/css/vendor/slick-slider.css" media="all"/>
-                    <link rel="stylesheet" href="../dist/css/blocks/block-slider-grid.css" media="all"/>
-                    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="../dist/css/layout/footer.css" media="all"/>
-                    <link rel="stylesheet" href="../dist/css/classes/css-classes.css" media="all"/>
-        
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../dist/images/favicon.png" />
+    <!-- Include CSS -->
+    <link rel="stylesheet" href="../dist/css/vendor/bootstrap.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/components/normalize.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/vendor/icons.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/components/typography.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/components/media.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/components/inputs.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/components/buttons.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/components/switch.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/components/checkbox-radio-out.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/components/checkbox-radio-in.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/layout/header.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/layout/desktop-menu.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/layout/mobile-menu.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/layout/layout.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/layout/sections.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/layout/sidebar.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/vendor/slick-slider.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/blocks/block-slider-grid.css" media="all" />
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="../dist/css/layout/footer.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/classes/css-classes.css" media="all" />
+
 
 </head>
+
 <body class="">
-<!--header-fixed, header-jump_js, header-reduce_js, header-transparent_js -->
-<header class="fw-header--outer ">
-    <div class="fw-header">
-        <div class="fw-header--container">
-            <div class="menu-open-btn menu-open-btn_js">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <a class="fw-logo" href="./">
-                <!--Add your Logo-->
+    <!--header-fixed, header-jump_js, header-reduce_js, header-transparent_js -->
+    <header class="fw-header--outer ">
+        <div class="fw-header">
+            <div class="fw-header--container">
+                <div class="menu-open-btn menu-open-btn_js">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <a class="fw-logo" href="./">
+                    <!--Add your Logo-->
                     <picture class="">
-        <source srcset="../dist/images/logo.svg 1x, ../dist/images/logo.svg 2x" media="(min-width: 768px)">
-        <source srcset="../dist/images/logo.svg" media="(max-width: 767px)">
-        <img
-            width=""
-            height=""
-            src="../dist/images/logo.svg"
-            alt="Your Logo"
-            fetchpriority="high"                    />
-    </picture>
+                        <source srcset="../dist/images/logo.svg 1x, ../dist/images/logo.svg 2x" media="(min-width: 768px)">
+                        <source srcset="../dist/images/logo.svg" media="(max-width: 767px)">
+                        <img width="" height="" src="../dist/images/logo.svg" alt="Your Logo" fetchpriority="high" />
+                    </picture>
                 </a>
-            <nav role="navigation" class="mobile-nav_js fw-menu">
-                <div class="fw-menu--mobile-head">
-                    <div class="fw-menu--head-logo">
-                        <a href="./">
-                            <!--Add your Logo-->
+                <nav role="navigation" class="mobile-nav_js fw-menu">
+                    <div class="fw-menu--mobile-head">
+                        <div class="fw-menu--head-logo">
+                            <a href="./">
+                                <!--Add your Logo-->
                                 <picture class="">
-        <source srcset="../dist/images/logo.svg 1x, ../dist/images/logo.svg 2x" media="(min-width: 768px)">
-        <source srcset="../dist/images/logo.svg" media="(max-width: 767px)">
-        <img
-            width=""
-            height=""
-            src="../dist/images/logo.svg"
-            alt="Your Logo"
-            fetchpriority="high"                    />
-    </picture>
+                                    <source srcset="../dist/images/logo.svg 1x, ../dist/images/logo.svg 2x" media="(min-width: 768px)">
+                                    <source srcset="../dist/images/logo.svg" media="(max-width: 767px)">
+                                    <img width="" height="" src="../dist/images/logo.svg" alt="Your Logo" fetchpriority="high" />
+                                </picture>
                             </a>
+                        </div>
+                        <div class="menu-close-btn menu-close-btn_js">
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
-                    <div class="menu-close-btn menu-close-btn_js">
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-                <div class="fw-menu--mobile-body">
-                    <!--Start Menu -->
-                    <ul class="general-menu_js fw-menu--nav">
-                        <!--  1 Level-->
-                                                    <li class=menu-item-has-children>
+                    <div class="fw-menu--mobile-body">
+                        <!--Start Menu -->
+                        <ul class="general-menu_js fw-menu--nav">
+                            <!--  1 Level-->
+                            <li class=menu-item-has-children>
                                 <a href="#">
-                                    Headers                                </a>
-                                                                                                        <ul class="fw-menu--sub sub-menu_js">
-                                        <!--  2 Level-->
-                                                                                    <li >
-                                                <a href="header.html">
-                                                    Default                                                </a>
-                                                                                            </li>
-                                                                                    <li >
-                                                <a href="header-fixed.html">
-                                                    Fixed                                                </a>
-                                                                                            </li>
-                                                                                    <li >
-                                                <a href="header-jump.html">
-                                                    Jump                                                </a>
-                                                                                            </li>
-                                                                                    <li >
-                                                <a href="header-reduce.html">
-                                                    Reduce                                                </a>
-                                                                                            </li>
-                                                                                    <li >
-                                                <a href="header-transparent.html">
-                                                    Transparent                                                </a>
-                                                                                            </li>
-                                                                            </ul>
-                                                            </li>
-                                                    <li >
+                                    Headers </a>
+                                <ul class="fw-menu--sub sub-menu_js">
+                                    <!--  2 Level-->
+                                    <li>
+                                        <a href="header.html">
+                                            Default </a>
+                                    </li>
+                                    <li>
+                                        <a href="header-fixed.html">
+                                            Fixed </a>
+                                    </li>
+                                    <li>
+                                        <a href="header-jump.html">
+                                            Jump </a>
+                                    </li>
+                                    <li>
+                                        <a href="header-reduce.html">
+                                            Reduce </a>
+                                    </li>
+                                    <li>
+                                        <a href="header-transparent.html">
+                                            Transparent </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
                                 <a href="typography.html">
-                                    Typography                                </a>
-                                                            </li>
-                                                    <li class=menu-item-has-children>
+                                    Typography </a>
+                            </li>
+                            <li class=menu-item-has-children>
                                 <a href="sections.html">
-                                    Section                                </a>
-                                                                                                        <ul class="fw-menu--sub sub-menu_js">
-                                        <!--  2 Level-->
-                                                                                    <li >
-                                                <a href="columns.html">
-                                                    Columns                                                </a>
-                                                                                            </li>
-                                                                            </ul>
-                                                            </li>
-                                                    <li class=menu-item-has-children>
+                                    Section </a>
+                                <ul class="fw-menu--sub sub-menu_js">
+                                    <!--  2 Level-->
+                                    <li>
+                                        <a href="columns.html">
+                                            Columns </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class=menu-item-has-children>
                                 <a href="tabs.html">
-                                    Tabs                                </a>
-                                                                                                        <ul class="fw-menu--sub sub-menu_js">
-                                        <!--  2 Level-->
-                                                                                    <li class=menu-item-has-children>
+                                    Tabs </a>
+                                <ul class="fw-menu--sub sub-menu_js">
+                                    <!--  2 Level-->
+                                    <li class=menu-item-has-children>
+                                        <a href="#link1">
+                                            Label 1 </a>
+                                        <ul class="fw-menu--sub sub-menu_js">
+                                            <!--  3 Level-->
+                                            <li>
                                                 <a href="#link1">
-                                                    Label 1                                                </a>
-                                                                                                                                                                                                                <ul class="fw-menu--sub sub-menu_js">
-                                                            <!--  3 Level-->
-                                                                                                                                    <li>
-                                                                        <a href="#link1">
-                                                                            Label 4                                                                        </a>
-                                                                    </li>
-                                                                                                                                    <li>
-                                                                        <a href="#link1">
-                                                                            Label 4                                                                        </a>
-                                                                    </li>
-                                                                                                                        </ul>
-                                                                                                                                                </li>
-                                                                                    <li class=menu-item-has-children>
+                                                    Label 4 </a>
+                                            </li>
+                                            <li>
                                                 <a href="#link1">
-                                                    Label 1                                                </a>
-                                                                                                                                                                                                                <ul class="fw-menu--sub sub-menu_js">
-                                                            <!--  3 Level-->
-                                                                                                                                    <li>
-                                                                        <a href="#link1">
-                                                                            Label 4                                                                        </a>
-                                                                    </li>
-                                                                                                                                    <li>
-                                                                        <a href="#link1">
-                                                                            Label 4                                                                        </a>
-                                                                    </li>
-                                                                                                                        </ul>
-                                                                                                                                                </li>
-                                                                                    <li >
-                                                <a href="#link3">
-                                                    Label 3                                                </a>
-                                                                                            </li>
-                                                                            </ul>
-                                                            </li>
-                                                    <li class=menu-item-has-children>
+                                                    Label 4 </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class=menu-item-has-children>
+                                        <a href="#link1">
+                                            Label 1 </a>
+                                        <ul class="fw-menu--sub sub-menu_js">
+                                            <!--  3 Level-->
+                                            <li>
+                                                <a href="#link1">
+                                                    Label 4 </a>
+                                            </li>
+                                            <li>
+                                                <a href="#link1">
+                                                    Label 4 </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#link3">
+                                            Label 3 </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class=menu-item-has-children>
                                 <a href="#">
-                                    Inputs                                </a>
-                                                                                                        <ul class="fw-menu--sub sub-menu_js">
-                                        <!--  2 Level-->
-                                                                                    <li >
-                                                <a href="inputs.html">
-                                                    Inputs                                                </a>
-                                                                                            </li>
-                                                                                    <li >
-                                                <a href="buttons.html">
-                                                    Buttons                                                </a>
-                                                                                            </li>
-                                                                                    <li >
-                                                <a href="checkbox.html">
-                                                    Checkboxes                                                </a>
-                                                                                            </li>
-                                                                            </ul>
-                                                            </li>
-                                                    <li >
+                                    Inputs </a>
+                                <ul class="fw-menu--sub sub-menu_js">
+                                    <!--  2 Level-->
+                                    <li>
+                                        <a href="inputs.html">
+                                            Inputs </a>
+                                    </li>
+                                    <li>
+                                        <a href="buttons.html">
+                                            Buttons </a>
+                                    </li>
+                                    <li>
+                                        <a href="checkbox.html">
+                                            Checkboxes </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
                                 <a href="accordion.html">
-                                    Accordion                                </a>
-                                                            </li>
-                                                    <li class=menu-item-has-children>
+                                    Accordion </a>
+                            </li>
+                            <li class=menu-item-has-children>
                                 <a href="#">
-                                    Sliders                                </a>
-                                                                                                        <ul class="fw-menu--sub sub-menu_js">
-                                        <!--  2 Level-->
-                                                                                    <li >
-                                                <a href="slider-full.html">
-                                                    Full Slider                                                </a>
-                                                                                            </li>
-                                                                                    <li >
-                                                <a href="slider-grid.html">
-                                                    Grid Slider                                                </a>
-                                                                                            </li>
-                                                                            </ul>
-                                                            </li>
-                                            </ul>
-                    <!--End Menu -->
-                </div>
-            </nav>
-        </div>
-    </div>
-</header>
-<main class="fw-main">
-<section class="fw-section">
-    <div class="container">
-        <div class="fw-gsl">
-            <button aria-label="Prev Slide" class="arrw-prev remove-gsl-arrow-preload">
-                <i class="lni lni-chevron-left"></i>
-            </button>
-            <div class="fw-gsl--outer remove-gsl-preload-height">
-                <div id="grid-slider_js" class="slick-slider slick-preloader">
-                                            <div class="">
-                            <div class="fw-gsl--inner">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur felis eu semper condimentum. Cras viverra lectus id risus porttitor convallis. Morbi finibus massa velit, id bibendum tortor viverra et. Vestibulum a turpis placerat quam placerat faucibus. Etiam sed diam at magna placerat consequat ac eget lacus.                            </div>
-                        </div>
-                                            <div class="">
-                            <div class="fw-gsl--inner">
-                                Etiam vel tortor non neque sodales ornare at id nulla. Cras in dictum nulla, sed tempor magna. Quisque et pellentesque metus, a placerat magna.                            </div>
-                        </div>
-                                            <div class="">
-                            <div class="fw-gsl--inner">
-                                Nulla quis faucibus augue. Aliquam dapibus justo sed mauris dignissim, accumsan dignissim tellus consequat. Nunc fermentum, erat pretium bibendum varius, dolor augue venenatis diam, non ultrices sapien risus nec tortor. Aenean nec lobortis dui, sit amet consectetur nibh. In eu eros quis neque vulputate egestas.                            </div>
-                        </div>
-                                            <div class="">
-                            <div class="fw-gsl--inner">
-                                Aliquam eu sapien at sem feugiat rhoncus. Fusce est turpis, volutpat eget nisl at, molestie accumsan dui.                             </div>
-                        </div>
-                                            <div class="">
-                            <div class="fw-gsl--inner">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur felis eu semper condimentum. Cras viverra lectus id risus porttitor convallis. Morbi finibus massa velit, id bibendum tortor viverra et. Vestibulum a turpis placerat quam placerat faucibus. Etiam sed diam at magna placerat consequat ac eget lacus.                            </div>
-                        </div>
-                                            <div class="">
-                            <div class="fw-gsl--inner">
-                                Nulla quis faucibus augue. Aliquam dapibus justo sed mauris dignissim, accumsan dignissim tellus consequat. Nunc fermentum, erat pretium bibendum varius, dolor augue venenatis diam, non ultrices sapien risus nec tortor. Aenean nec lobortis dui, sit amet consectetur nibh. In eu eros quis neque vulputate egestas.                            </div>
-                        </div>
-                                    </div>
-                <div id="fw-fgl-dots_js" class="fw-fgl--dots"></div>
+                                    Sliders </a>
+                                <ul class="fw-menu--sub sub-menu_js">
+                                    <!--  2 Level-->
+                                    <li>
+                                        <a href="slider-full.html">
+                                            Full Slider </a>
+                                    </li>
+                                    <li>
+                                        <a href="slider-grid.html">
+                                            Grid Slider </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!--End Menu -->
+                    </div>
+                </nav>
             </div>
-            <button aria-label="Next Slide" class="arrw-next remove-gsl-arrow-preload">
-                <i class="lni lni-chevron-right"></i>
-            </button>
-            <div id="fw-gsl-dots_js" class="fw-gsl--dots"></div>
         </div>
-    </div>
-</section>
+    </header>
+    <main class="fw-main">
+        <section class="fw-section">
+            <div class="container">
+                <div class="fw-gsl">
+                    <button aria-label="Prev Slide" class="arrw-prev remove-gsl-arrow-preload">
+                        <i class="lni lni-chevron-left"></i>
+                    </button>
+                    <div class="fw-gsl--outer remove-gsl-preload-height">
+                        <div id="grid-slider_js" class="slick-slider slick-preloader">
+                            <div class="">
+                                <div class="fw-gsl--inner">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur felis eu semper condimentum. Cras viverra lectus id risus porttitor convallis. Morbi finibus massa velit, id bibendum tortor viverra et. Vestibulum a turpis placerat quam placerat faucibus. Etiam sed diam at magna placerat consequat ac eget lacus. </div>
+                            </div>
+                            <div class="">
+                                <div class="fw-gsl--inner">
+                                    Etiam vel tortor non neque sodales ornare at id nulla. Cras in dictum nulla, sed tempor magna. Quisque et pellentesque metus, a placerat magna. </div>
+                            </div>
+                            <div class="">
+                                <div class="fw-gsl--inner">
+                                    Nulla quis faucibus augue. Aliquam dapibus justo sed mauris dignissim, accumsan dignissim tellus consequat. Nunc fermentum, erat pretium bibendum varius, dolor augue venenatis diam, non ultrices sapien risus nec tortor. Aenean nec lobortis dui, sit amet consectetur nibh. In eu eros quis neque vulputate egestas. </div>
+                            </div>
+                            <div class="">
+                                <div class="fw-gsl--inner">
+                                    Aliquam eu sapien at sem feugiat rhoncus. Fusce est turpis, volutpat eget nisl at, molestie accumsan dui. </div>
+                            </div>
+                            <div class="">
+                                <div class="fw-gsl--inner">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur felis eu semper condimentum. Cras viverra lectus id risus porttitor convallis. Morbi finibus massa velit, id bibendum tortor viverra et. Vestibulum a turpis placerat quam placerat faucibus. Etiam sed diam at magna placerat consequat ac eget lacus. </div>
+                            </div>
+                            <div class="">
+                                <div class="fw-gsl--inner">
+                                    Nulla quis faucibus augue. Aliquam dapibus justo sed mauris dignissim, accumsan dignissim tellus consequat. Nunc fermentum, erat pretium bibendum varius, dolor augue venenatis diam, non ultrices sapien risus nec tortor. Aenean nec lobortis dui, sit amet consectetur nibh. In eu eros quis neque vulputate egestas. </div>
+                            </div>
+                        </div>
+                        <div id="fw-fgl-dots_js" class="fw-fgl--dots"></div>
+                    </div>
+                    <button aria-label="Next Slide" class="arrw-next remove-gsl-arrow-preload">
+                        <i class="lni lni-chevron-right"></i>
+                    </button>
+                    <div id="fw-gsl-dots_js" class="fw-gsl--dots"></div>
+                </div>
+            </div>
+        </section>
 
-<section class="fw-section bg-secondary has-bg">
-    <div class="container">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur modi perspiciatis saepe unde.
-            Adipisci animi at, cupiditate, dolore dolores ea harum iste molestiae necessitatibus nisi officia,
-            tempora unde vel!</p>
-        <p>Asperiores atque dolores facere incidunt ipsum modi nulla, obcaecati odio quas quibusdam quis quo ratione
-            sequi suscipit vero? Enim fugit laudantium maxime optio tenetur! Aliquam dicta dignissimos fuga iste
-            mollitia!</p>
-        <p>Maiores natus optio pariatur porro reprehenderit sapiente sit vero. Aut deleniti dolores ea enim facilis,
-            harum illum, impedit minus perferendis quis reprehenderit sed sequi ullam voluptates voluptatibus! A
-            eos, nemo.</p>
-        <p>Ab architecto eligendi nesciunt, obcaecati ratione sapiente voluptas voluptate? A ad animi aperiam atque
-            aut corporis delectus dolorem error et facere labore laboriosam, maxime nobis nulla, quia quos tempora,
-            voluptatibus.</p>
-        <p>Corporis deleniti explicabo libero minus placeat! Aliquid beatae deserunt dignissimos eligendi, et facere
-            iste mollitia odit officia, omnis porro quisquam quos rem saepe similique tempore vero. Eveniet maxime
-            quia sint.</p>
-        <p>A accusamus accusantium at atque beatae cupiditate deleniti deserunt dignissimos doloremque earum eum
-            fugit illum molestiae necessitatibus nesciunt nobis non, quae quasi rem sunt! Animi debitis hic omnis
-            quidem quod.</p>
-        <p>Accusamus, beatae, dolores doloribus earum, esse iusto obcaecati optio placeat quam qui suscipit
-            voluptates. Adipisci at, commodi dolor dolorem officiis pariatur perferendis quam rerum sapiente. Alias
-            consequatur dolor laborum tempore!</p>
-        <p>A aliquam atque ducimus eaque eos esse facere facilis id iure odit officia omnis optio, praesentium
-            repudiandae rerum saepe sint. Aliquid, animi quasi! Doloremque eveniet labore quibusdam repellendus
-            tenetur, vero.</p>
-        <p>Accusantium amet corporis debitis earum, eos est explicabo inventore ipsam laborum minus repellat
-            temporibus, tenetur voluptas? Aperiam ipsa laboriosam molestias obcaecati repellendus. Eos est, iste
-            iusto porro quis reprehenderit tempore.</p>
-        <p>Accusamus adipisci debitis delectus dolorem doloremque hic in inventore ipsa, laboriosam modi
-            necessitatibus nemo non perferendis quidem quisquam quod quos reiciendis reprehenderit suscipit
-            veritatis. In laudantium omnis quasi rerum vel!</p>
-    </div>
-</section>
-</main>
-<footer class="fw-footer">
-    <div class="container">
-        Footer
-    </div>
-</footer>
-<div class="menu-overlay menu-overlay_js"></div>
+        <section class="fw-section bg-secondary has-bg">
+            <div class="container">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur modi perspiciatis saepe unde.
+                    Adipisci animi at, cupiditate, dolore dolores ea harum iste molestiae necessitatibus nisi officia,
+                    tempora unde vel!</p>
+                <p>Asperiores atque dolores facere incidunt ipsum modi nulla, obcaecati odio quas quibusdam quis quo ratione
+                    sequi suscipit vero? Enim fugit laudantium maxime optio tenetur! Aliquam dicta dignissimos fuga iste
+                    mollitia!</p>
+                <p>Maiores natus optio pariatur porro reprehenderit sapiente sit vero. Aut deleniti dolores ea enim facilis,
+                    harum illum, impedit minus perferendis quis reprehenderit sed sequi ullam voluptates voluptatibus! A
+                    eos, nemo.</p>
+                <p>Ab architecto eligendi nesciunt, obcaecati ratione sapiente voluptas voluptate? A ad animi aperiam atque
+                    aut corporis delectus dolorem error et facere labore laboriosam, maxime nobis nulla, quia quos tempora,
+                    voluptatibus.</p>
+                <p>Corporis deleniti explicabo libero minus placeat! Aliquid beatae deserunt dignissimos eligendi, et facere
+                    iste mollitia odit officia, omnis porro quisquam quos rem saepe similique tempore vero. Eveniet maxime
+                    quia sint.</p>
+                <p>A accusamus accusantium at atque beatae cupiditate deleniti deserunt dignissimos doloremque earum eum
+                    fugit illum molestiae necessitatibus nesciunt nobis non, quae quasi rem sunt! Animi debitis hic omnis
+                    quidem quod.</p>
+                <p>Accusamus, beatae, dolores doloribus earum, esse iusto obcaecati optio placeat quam qui suscipit
+                    voluptates. Adipisci at, commodi dolor dolorem officiis pariatur perferendis quam rerum sapiente. Alias
+                    consequatur dolor laborum tempore!</p>
+                <p>A aliquam atque ducimus eaque eos esse facere facilis id iure odit officia omnis optio, praesentium
+                    repudiandae rerum saepe sint. Aliquid, animi quasi! Doloremque eveniet labore quibusdam repellendus
+                    tenetur, vero.</p>
+                <p>Accusantium amet corporis debitis earum, eos est explicabo inventore ipsam laborum minus repellat
+                    temporibus, tenetur voluptas? Aperiam ipsa laboriosam molestias obcaecati repellendus. Eos est, iste
+                    iusto porro quis reprehenderit tempore.</p>
+                <p>Accusamus adipisci debitis delectus dolorem doloremque hic in inventore ipsa, laboriosam modi
+                    necessitatibus nemo non perferendis quidem quisquam quod quos reiciendis reprehenderit suscipit
+                    veritatis. In laudantium omnis quasi rerum vel!</p>
+            </div>
+        </section>
+    </main>
+    <footer class="fw-footer">
+        <div class="container">
+            Footer
+        </div>
+    </footer>
+    <div class="menu-overlay menu-overlay_js"></div>
 
-<!-- Project scripts -->
-    <script  src="../dist/js/vendor/jquery-3.4.1.min.js"></script>
-        <script  src="../dist/js/vendor/slick.min.js"></script>
-        <script  src="../dist/js/blocks/block-slider-grid.js"></script>
-        <script  src="../dist/js/theme.js"></script>
-    
+    <!-- Project scripts -->
+    <script src="../dist/js/vendor/jquery-3.4.1.min.js"></script>
+    <script src="../dist/js/vendor/slick.min.js"></script>
+    <script src="../dist/js/blocks/block-slider-grid.js"></script>
+    <script src="../dist/js/theme.js"></script>
+
 </body>
+
 </html>

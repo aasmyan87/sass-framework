@@ -99,7 +99,7 @@ $tabs_ver = [
         <h2 class="fw-section--title">Vertical Tabs</h2>
         <div class="fw-tb">
             <div class="row">
-                <div class="col-fw-4">
+                <div class="col-md-4">
                     <div  class="fw-tbv--head">
                         <ul class="fw-tbv--nav">
                             <?php foreach ($tabs_ver as $key => $value) { ?>
@@ -112,7 +112,7 @@ $tabs_ver = [
                         </ul>
                     </div>
                 </div>
-                <div class="col-fw-8">
+                <div class="col-md-8">
                     <div class="fw-tbv--tabs">
                         <?php foreach ($tabs_ver as $key => $value) { ?>
                             <div id="tabb<?php echo $key; ?>" class="fw-tbv--content <?php echo $value['class']; ?>">

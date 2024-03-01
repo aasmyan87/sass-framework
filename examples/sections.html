@@ -1,691 +1,717 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sections</title>    <meta name="description" content="Some Description Here">
+    <title>Sections</title>
+    <meta name="description" content="Some Description Here">
     <!-- Include Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
-        <!-- Favicon -->
-        <link rel="icon" type="image/png" href="../dist/images/favicon.png"/>
-        <!-- Include CSS -->
-            <link rel="stylesheet" href="../dist/css/vendor/bootstrap.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/components/normalize.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/vendor/icons.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/components/typography.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/components/media.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/components/inputs.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/components/buttons.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/components/switch.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/components/checkbox-radio-out.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/components/checkbox-radio-in.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/layout/header.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/layout/desktop-menu.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/layout/mobile-menu.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/layout/layout.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/layout/sections.css" media="all"/>
-                <link rel="stylesheet" href="../dist/css/layout/sidebar.css" media="all"/>
-                    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="../dist/css/layout/footer.css" media="all"/>
-                    <link rel="stylesheet" href="../dist/css/classes/css-classes.css" media="all"/>
-        
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../dist/images/favicon.png" />
+    <!-- Include CSS -->
+    <link rel="stylesheet" href="../dist/css/vendor/bootstrap.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/components/normalize.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/vendor/icons.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/components/typography.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/components/media.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/components/inputs.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/components/buttons.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/components/switch.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/components/checkbox-radio-out.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/components/checkbox-radio-in.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/layout/header.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/layout/desktop-menu.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/layout/mobile-menu.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/layout/layout.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/layout/sections.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/layout/sidebar.css" media="all" />
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="../dist/css/layout/footer.css" media="all" />
+    <link rel="stylesheet" href="../dist/css/classes/css-classes.css" media="all" />
+
 
 </head>
+
 <body class="">
-<!--header-fixed, header-jump_js, header-reduce_js, header-transparent_js -->
-<header class="fw-header--outer ">
-    <div class="fw-header">
-        <div class="fw-header--container">
-            <div class="menu-open-btn menu-open-btn_js">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <a class="fw-logo" href="./">
-                <!--Add your Logo-->
+    <!--header-fixed, header-jump_js, header-reduce_js, header-transparent_js -->
+    <header class="fw-header--outer ">
+        <div class="fw-header">
+            <div class="fw-header--container">
+                <div class="menu-open-btn menu-open-btn_js">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <a class="fw-logo" href="./">
+                    <!--Add your Logo-->
                     <picture class="">
-        <source srcset="../dist/images/logo.svg 1x, ../dist/images/logo.svg 2x" media="(min-width: 768px)">
-        <source srcset="../dist/images/logo.svg" media="(max-width: 767px)">
-        <img
-            width=""
-            height=""
-            src="../dist/images/logo.svg"
-            alt="Your Logo"
-            fetchpriority="high"                    />
-    </picture>
+                        <source srcset="../dist/images/logo.svg 1x, ../dist/images/logo.svg 2x" media="(min-width: 768px)">
+                        <source srcset="../dist/images/logo.svg" media="(max-width: 767px)">
+                        <img width="" height="" src="../dist/images/logo.svg" alt="Your Logo" fetchpriority="high" />
+                    </picture>
                 </a>
-            <nav role="navigation" class="mobile-nav_js fw-menu">
-                <div class="fw-menu--mobile-head">
-                    <div class="fw-menu--head-logo">
-                        <a href="./">
-                            <!--Add your Logo-->
+                <nav role="navigation" class="mobile-nav_js fw-menu">
+                    <div class="fw-menu--mobile-head">
+                        <div class="fw-menu--head-logo">
+                            <a href="./">
+                                <!--Add your Logo-->
                                 <picture class="">
-        <source srcset="../dist/images/logo.svg 1x, ../dist/images/logo.svg 2x" media="(min-width: 768px)">
-        <source srcset="../dist/images/logo.svg" media="(max-width: 767px)">
-        <img
-            width=""
-            height=""
-            src="../dist/images/logo.svg"
-            alt="Your Logo"
-            fetchpriority="high"                    />
-    </picture>
+                                    <source srcset="../dist/images/logo.svg 1x, ../dist/images/logo.svg 2x" media="(min-width: 768px)">
+                                    <source srcset="../dist/images/logo.svg" media="(max-width: 767px)">
+                                    <img width="" height="" src="../dist/images/logo.svg" alt="Your Logo" fetchpriority="high" />
+                                </picture>
                             </a>
+                        </div>
+                        <div class="menu-close-btn menu-close-btn_js">
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
-                    <div class="menu-close-btn menu-close-btn_js">
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-                <div class="fw-menu--mobile-body">
-                    <!--Start Menu -->
-                    <ul class="general-menu_js fw-menu--nav">
-                        <!--  1 Level-->
-                                                    <li class=menu-item-has-children>
+                    <div class="fw-menu--mobile-body">
+                        <!--Start Menu -->
+                        <ul class="general-menu_js fw-menu--nav">
+                            <!--  1 Level-->
+                            <li class=menu-item-has-children>
                                 <a href="#">
-                                    Headers                                </a>
-                                                                                                        <ul class="fw-menu--sub sub-menu_js">
-                                        <!--  2 Level-->
-                                                                                    <li >
-                                                <a href="header.html">
-                                                    Default                                                </a>
-                                                                                            </li>
-                                                                                    <li >
-                                                <a href="header-fixed.html">
-                                                    Fixed                                                </a>
-                                                                                            </li>
-                                                                                    <li >
-                                                <a href="header-jump.html">
-                                                    Jump                                                </a>
-                                                                                            </li>
-                                                                                    <li >
-                                                <a href="header-reduce.html">
-                                                    Reduce                                                </a>
-                                                                                            </li>
-                                                                                    <li >
-                                                <a href="header-transparent.html">
-                                                    Transparent                                                </a>
-                                                                                            </li>
-                                                                            </ul>
-                                                            </li>
-                                                    <li >
+                                    Headers </a>
+                                <ul class="fw-menu--sub sub-menu_js">
+                                    <!--  2 Level-->
+                                    <li>
+                                        <a href="header.html">
+                                            Default </a>
+                                    </li>
+                                    <li>
+                                        <a href="header-fixed.html">
+                                            Fixed </a>
+                                    </li>
+                                    <li>
+                                        <a href="header-jump.html">
+                                            Jump </a>
+                                    </li>
+                                    <li>
+                                        <a href="header-reduce.html">
+                                            Reduce </a>
+                                    </li>
+                                    <li>
+                                        <a href="header-transparent.html">
+                                            Transparent </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
                                 <a href="typography.html">
-                                    Typography                                </a>
-                                                            </li>
-                                                    <li class=menu-item-has-children>
+                                    Typography </a>
+                            </li>
+                            <li class=menu-item-has-children>
                                 <a href="sections.html">
-                                    Section                                </a>
-                                                                                                        <ul class="fw-menu--sub sub-menu_js">
-                                        <!--  2 Level-->
-                                                                                    <li >
-                                                <a href="columns.html">
-                                                    Columns                                                </a>
-                                                                                            </li>
-                                                                            </ul>
-                                                            </li>
-                                                    <li class=menu-item-has-children>
+                                    Section </a>
+                                <ul class="fw-menu--sub sub-menu_js">
+                                    <!--  2 Level-->
+                                    <li>
+                                        <a href="columns.html">
+                                            Columns </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class=menu-item-has-children>
                                 <a href="tabs.html">
-                                    Tabs                                </a>
-                                                                                                        <ul class="fw-menu--sub sub-menu_js">
-                                        <!--  2 Level-->
-                                                                                    <li class=menu-item-has-children>
+                                    Tabs </a>
+                                <ul class="fw-menu--sub sub-menu_js">
+                                    <!--  2 Level-->
+                                    <li class=menu-item-has-children>
+                                        <a href="#link1">
+                                            Label 1 </a>
+                                        <ul class="fw-menu--sub sub-menu_js">
+                                            <!--  3 Level-->
+                                            <li>
                                                 <a href="#link1">
-                                                    Label 1                                                </a>
-                                                                                                                                                                                                                <ul class="fw-menu--sub sub-menu_js">
-                                                            <!--  3 Level-->
-                                                                                                                                    <li>
-                                                                        <a href="#link1">
-                                                                            Label 4                                                                        </a>
-                                                                    </li>
-                                                                                                                                    <li>
-                                                                        <a href="#link1">
-                                                                            Label 4                                                                        </a>
-                                                                    </li>
-                                                                                                                        </ul>
-                                                                                                                                                </li>
-                                                                                    <li class=menu-item-has-children>
+                                                    Label 4 </a>
+                                            </li>
+                                            <li>
                                                 <a href="#link1">
-                                                    Label 1                                                </a>
-                                                                                                                                                                                                                <ul class="fw-menu--sub sub-menu_js">
-                                                            <!--  3 Level-->
-                                                                                                                                    <li>
-                                                                        <a href="#link1">
-                                                                            Label 4                                                                        </a>
-                                                                    </li>
-                                                                                                                                    <li>
-                                                                        <a href="#link1">
-                                                                            Label 4                                                                        </a>
-                                                                    </li>
-                                                                                                                        </ul>
-                                                                                                                                                </li>
-                                                                                    <li >
-                                                <a href="#link3">
-                                                    Label 3                                                </a>
-                                                                                            </li>
-                                                                            </ul>
-                                                            </li>
-                                                    <li class=menu-item-has-children>
+                                                    Label 4 </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class=menu-item-has-children>
+                                        <a href="#link1">
+                                            Label 1 </a>
+                                        <ul class="fw-menu--sub sub-menu_js">
+                                            <!--  3 Level-->
+                                            <li>
+                                                <a href="#link1">
+                                                    Label 4 </a>
+                                            </li>
+                                            <li>
+                                                <a href="#link1">
+                                                    Label 4 </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#link3">
+                                            Label 3 </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class=menu-item-has-children>
                                 <a href="#">
-                                    Inputs                                </a>
-                                                                                                        <ul class="fw-menu--sub sub-menu_js">
-                                        <!--  2 Level-->
-                                                                                    <li >
-                                                <a href="inputs.html">
-                                                    Inputs                                                </a>
-                                                                                            </li>
-                                                                                    <li >
-                                                <a href="buttons.html">
-                                                    Buttons                                                </a>
-                                                                                            </li>
-                                                                                    <li >
-                                                <a href="checkbox.html">
-                                                    Checkboxes                                                </a>
-                                                                                            </li>
-                                                                            </ul>
-                                                            </li>
-                                                    <li >
+                                    Inputs </a>
+                                <ul class="fw-menu--sub sub-menu_js">
+                                    <!--  2 Level-->
+                                    <li>
+                                        <a href="inputs.html">
+                                            Inputs </a>
+                                    </li>
+                                    <li>
+                                        <a href="buttons.html">
+                                            Buttons </a>
+                                    </li>
+                                    <li>
+                                        <a href="checkbox.html">
+                                            Checkboxes </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
                                 <a href="accordion.html">
-                                    Accordion                                </a>
-                                                            </li>
-                                                    <li class=menu-item-has-children>
+                                    Accordion </a>
+                            </li>
+                            <li class=menu-item-has-children>
                                 <a href="#">
-                                    Sliders                                </a>
-                                                                                                        <ul class="fw-menu--sub sub-menu_js">
-                                        <!--  2 Level-->
-                                                                                    <li >
-                                                <a href="slider-full.html">
-                                                    Full Slider                                                </a>
-                                                                                            </li>
-                                                                                    <li >
-                                                <a href="slider-grid.html">
-                                                    Grid Slider                                                </a>
-                                                                                            </li>
-                                                                            </ul>
-                                                            </li>
-                                            </ul>
-                    <!--End Menu -->
-                </div>
-            </nav>
+                                    Sliders </a>
+                                <ul class="fw-menu--sub sub-menu_js">
+                                    <!--  2 Level-->
+                                    <li>
+                                        <a href="slider-full.html">
+                                            Full Slider </a>
+                                    </li>
+                                    <li>
+                                        <a href="slider-grid.html">
+                                            Grid Slider </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!--End Menu -->
+                    </div>
+                </nav>
+            </div>
         </div>
-    </div>
-</header>
-<main class="fw-main"><section class="fw-section has-bg bg-primary color-white link-purple">
-    <div class="container">
-        <h2 class="fw-section--title color-white">Background Color Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+    </header>
+    <main class="fw-main">
+        <section class="fw-section has-bg bg-primary color-white link-purple">
+            <div class="container">
+                <h2 class="fw-section--title color-white">Background Color Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section">
-    <div class="container">
-        <h2 class="fw-section--title">Basic Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section">
+            <div class="container">
+                <h2 class="fw-section--title">Basic Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section">
-    <div class="container">
-        <header class="fw-section--head">
-            <h2 class="fw-section--title">Advanced Section</h2>
-            <p><strong>Head text:</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
-        </header>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
-<section class="fw-section psect">
-    <div class="container">
-        <h2 class="fw-section--title">Basic Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section">
+            <div class="container">
+                <header class="fw-section--head">
+                    <h2 class="fw-section--title">Advanced Section</h2>
+                    <p><strong>Head text:</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
+                </header>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
+        <section class="fw-section psect">
+            <div class="container">
+                <h2 class="fw-section--title">Basic Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section">
-    <div class="container">
-        <header class="fw-section--head">
-            <h2 class="fw-section--title">Advanced Section</h2>
-            <p><strong>Head text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
-        </header>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section">
+            <div class="container">
+                <header class="fw-section--head">
+                    <h2 class="fw-section--title">Advanced Section</h2>
+                    <p><strong>Head text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
+                </header>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section has-bg bg-secondary color-white link-purple">
-    <div class="container">
-        <h2 class="fw-section--title color-white">Background Color Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section has-bg bg-secondary color-white link-purple">
+            <div class="container">
+                <h2 class="fw-section--title color-white">Background Color Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section has-bg bg-primary color-white link-purple">
-    <div class="container">
-        <h2 class="fw-section--title color-white">Background Color Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section has-bg bg-primary color-white link-purple">
+            <div class="container">
+                <h2 class="fw-section--title color-white">Background Color Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section">
-    <div class="container">
-        <h2 class="fw-section--title">Basic Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section">
+            <div class="container">
+                <h2 class="fw-section--title">Basic Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section">
-    <div class="container">
-        <header class="fw-section--head">
-            <h2 class="fw-section--title">Advanced Section</h2>
-            <p><strong>Head text:</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
-        </header>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section">
+            <div class="container">
+                <header class="fw-section--head">
+                    <h2 class="fw-section--title">Advanced Section</h2>
+                    <p><strong>Head text:</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
+                </header>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section has-bg has-cover cover-black color-white link-purple">
-    <div class="container fw-content">
-        <h2 class="fw-section--title color-white">Background image [img tag] Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-    <br />
-<b>Warning</b>:  getimagesize(http://localhost/sass-framework/dist/images/bg-5.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
- in <b>C:\xampp\htdocs\sass-framework\src\php-framework\functions.php</b> on line <b>130</b><br />
-    <picture class="bg-img">
-        <source srcset="../dist/images/bg-5.jpg 1x, ../dist/images/bg-5.jpg 2x" media="(min-width: 768px)">
-        <source srcset="../dist/images/bg-5.jpg" media="(max-width: 767px)">
-        <img
-            width=""
-            height=""
-            src="../dist/images/bg-5.jpg"
-            alt="BACKGROUND IMAGE [IMG TAG] SECTION"
-                                />
-    </picture>
-    </section>
+        <section class="fw-section has-bg has-cover cover-black color-white link-purple">
+            <div class="container fw-content">
+                <h2 class="fw-section--title color-white">Background image [img tag] Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+            <br />
+            <b>Warning</b>: getimagesize(http://localhost/sass-framework/dist/images/bg-5.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+            in <b>C:\xampp\htdocs\sass-framework\src\php-framework\functions.php</b> on line <b>130</b><br />
+            <picture class="bg-img">
+                <source srcset="../dist/images/bg-5.jpg 1x, ../dist/images/bg-5.jpg 2x" media="(min-width: 768px)">
+                <source srcset="../dist/images/bg-5.jpg" media="(max-width: 767px)">
+                <img width="" height="" src="../dist/images/bg-5.jpg" alt="BACKGROUND IMAGE [IMG TAG] SECTION" />
+            </picture>
+        </section>
 
-<section class="fw-section has-bg brd-bottom brd-secondary">
-    <div class="container">
-        <h2 class="fw-section--title">Border Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section has-bg brd-bottom brd-secondary">
+            <div class="container">
+                <h2 class="fw-section--title">Border Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section">
-    <div class="container">
-        <h2 class="fw-section--title">Basic Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section">
+            <div class="container">
+                <h2 class="fw-section--title">Basic Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section has-bg has-cover cover-black color-white link-purple" style="background-image: url(../dist/images/bg-1.jpg)">
-    <div class="container">
-        <h2 class="fw-section--title color-white">Background Image Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section has-bg has-cover cover-black color-white link-purple" style="background-image: url(../dist/images/bg-1.jpg)">
+            <div class="container">
+                <h2 class="fw-section--title color-white">Background Image Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section">
-    <div class="container">
-        <h2 class="fw-section--title">Basic Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section">
+            <div class="container">
+                <h2 class="fw-section--title">Basic Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section">
-    <div class="container">
-        <header class="fw-section--head">
-            <h2 class="fw-section--title">Advanced Section</h2>
-            <p><strong>Head text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
-        </header>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section">
+            <div class="container">
+                <header class="fw-section--head">
+                    <h2 class="fw-section--title">Advanced Section</h2>
+                    <p><strong>Head text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
+                </header>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section has-bg has-parallax color-white link-purple" style="background-image: url(../dist/images/bg-1.jpg)">
-    <div class="container">
-        <h2 class="fw-section--title color-white">Background Image Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section has-bg has-parallax color-white link-purple" style="background-image: url(../dist/images/bg-1.jpg)">
+            <div class="container">
+                <h2 class="fw-section--title color-white">Background Image Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section">
-    <div class="container">
-        <h2 class="fw-section--title">Basic Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section">
+            <div class="container">
+                <h2 class="fw-section--title">Basic Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section">
-    <div class="container">
-        <header class="fw-section--head">
-            <h2 class="fw-section--title">Advanced Section</h2>
-            <p><strong>Head text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
-        </header>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
-<section class="fw-section">
-    <div class="container">
-        <h2 class="fw-section--title">Basic Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section">
+            <div class="container">
+                <header class="fw-section--head">
+                    <h2 class="fw-section--title">Advanced Section</h2>
+                    <p><strong>Head text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
+                </header>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
+        <section class="fw-section">
+            <div class="container">
+                <h2 class="fw-section--title">Basic Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section">
-    <div class="container">
-        <header class="fw-section--head">
-            <h2 class="fw-section--title">Advanced Section</h2>
-            <p><strong>Head text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
-        </header>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section">
+            <div class="container">
+                <header class="fw-section--head">
+                    <h2 class="fw-section--title">Advanced Section</h2>
+                    <p><strong>Head text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
+                </header>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section has-bg bg-secondary color-white link-purple">
-    <div class="container">
-        <h2 class="fw-section--title color-white">Background Color Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section has-bg bg-secondary color-white link-purple">
+            <div class="container">
+                <h2 class="fw-section--title color-white">Background Color Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section has-bg bg-primary color-white link-purple">
-    <div class="container">
-        <h2 class="fw-section--title color-white">Background Color Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section has-bg bg-primary color-white link-purple">
+            <div class="container">
+                <h2 class="fw-section--title color-white">Background Color Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section">
-    <div class="container">
-        <h2 class="fw-section--title">Basic Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section">
+            <div class="container">
+                <h2 class="fw-section--title">Basic Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section">
-    <div class="container">
-        <header class="fw-section--head">
-            <h2 class="fw-section--title">Advanced Section</h2>
-            <p><strong>Head text:</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
-        </header>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section">
+            <div class="container">
+                <header class="fw-section--head">
+                    <h2 class="fw-section--title">Advanced Section</h2>
+                    <p><strong>Head text:</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
+                </header>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section has-bg has-cover cover-black color-white link-purple">
-    <div class="container fw-content">
-        <h2 class="fw-section--title color-white">Background image [img tag] Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-    <br />
-<b>Warning</b>:  getimagesize(http://localhost/sass-framework/dist/images/bg-5.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
- in <b>C:\xampp\htdocs\sass-framework\src\php-framework\functions.php</b> on line <b>130</b><br />
-    <picture class="bg-img">
-        <source srcset="../dist/images/bg-5.jpg 1x, ../dist/images/bg-5.jpg 2x" media="(min-width: 768px)">
-        <source srcset="../dist/images/bg-5.jpg" media="(max-width: 767px)">
-        <img
-            width=""
-            height=""
-            src="../dist/images/bg-5.jpg"
-            alt="BACKGROUND IMAGE [IMG TAG] SECTION"
-                                />
-    </picture>
-    </section>
+        <section class="fw-section has-bg has-cover cover-black color-white link-purple">
+            <div class="container fw-content">
+                <h2 class="fw-section--title color-white">Background image [img tag] Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+            <br />
+            <b>Warning</b>: getimagesize(http://localhost/sass-framework/dist/images/bg-5.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+            in <b>C:\xampp\htdocs\sass-framework\src\php-framework\functions.php</b> on line <b>130</b><br />
+            <picture class="bg-img">
+                <source srcset="../dist/images/bg-5.jpg 1x, ../dist/images/bg-5.jpg 2x" media="(min-width: 768px)">
+                <source srcset="../dist/images/bg-5.jpg" media="(max-width: 767px)">
+                <img width="" height="" src="../dist/images/bg-5.jpg" alt="BACKGROUND IMAGE [IMG TAG] SECTION" />
+            </picture>
+        </section>
 
-<section class="fw-section has-bg brd-bottom brd-secondary">
-    <div class="container">
-        <h2 class="fw-section--title">Border Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section has-bg brd-bottom brd-secondary">
+            <div class="container">
+                <h2 class="fw-section--title">Border Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section">
-    <div class="container">
-        <h2 class="fw-section--title">Basic Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section">
+            <div class="container">
+                <h2 class="fw-section--title">Basic Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section has-bg has-cover cover-black color-white link-purple" style="background-image: url(../dist/images/bg-1.jpg)">
-    <div class="container">
-        <h2 class="fw-section--title color-white">Background Image Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section has-bg has-cover cover-black color-white link-purple" style="background-image: url(../dist/images/bg-1.jpg)">
+            <div class="container">
+                <h2 class="fw-section--title color-white">Background Image Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section">
-    <div class="container">
-        <h2 class="fw-section--title">Basic Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section">
+            <div class="container">
+                <h2 class="fw-section--title">Basic Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section">
-    <div class="container">
-        <header class="fw-section--head">
-            <h2 class="fw-section--title">Advanced Section</h2>
-            <p><strong>Head text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
-        </header>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section">
+            <div class="container">
+                <header class="fw-section--head">
+                    <h2 class="fw-section--title">Advanced Section</h2>
+                    <p><strong>Head text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
+                </header>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section has-bg has-parallax color-white link-purple" style="background-image: url(../dist/images/bg-1.jpg)">
-    <div class="container">
-        <h2 class="fw-section--title color-white">Background Image Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section has-bg has-parallax color-white link-purple" style="background-image: url(../dist/images/bg-1.jpg)">
+            <div class="container">
+                <h2 class="fw-section--title color-white">Background Image Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section">
-    <div class="container">
-        <h2 class="fw-section--title">Basic Section</h2>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
+        <section class="fw-section">
+            <div class="container">
+                <h2 class="fw-section--title">Basic Section</h2>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
 
-<section class="fw-section">
-    <div class="container">
-        <header class="fw-section--head">
-            <h2 class="fw-section--title">Advanced Section</h2>
-            <p><strong>Head text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
-        </header>
-        <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
-            <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
-            labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
-            temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
-            voluptate!</p>
-    </div>
-</section>
-<style>
-    .loading-bar{
-        height: 10px;
-        width: 0;
-        background-color: red;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 999999999999999;
-    }
-</style>
-<div class="loading-bar"></div>
-</main>
-<footer class="fw-footer">
-    <div class="container">
-        Footer
-    </div>
-</footer>
-<div class="menu-overlay menu-overlay_js"></div>
+        <section class="fw-section">
+            <div class="container">
+                <header class="fw-section--head">
+                    <h2 class="fw-section--title">Advanced Section</h2>
+                    <p><strong>Head text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
+                </header>
+                <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
+                    <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
+                    labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
+                    temporibus voluptatem! Aliquam commodi eius laudantium maxime nulla quibusdam repellendus
+                    voluptate!
+                </p>
+            </div>
+        </section>
+        <style>
+            .loading-bar {
+                height: 10px;
+                width: 0;
+                background-color: red;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: 999999999999999;
+            }
+        </style>
+        <div class="loading-bar"></div>
+    </main>
+    <footer class="fw-footer">
+        <div class="container">
+            Footer
+        </div>
+    </footer>
+    <div class="menu-overlay menu-overlay_js"></div>
 
-<!-- Project scripts -->
-    <script  src="../dist/js/vendor/jquery-3.4.1.min.js"></script>
-        <script  src="../dist/js/theme.js"></script>
-    
+    <!-- Project scripts -->
+    <script src="../dist/js/vendor/jquery-3.4.1.min.js"></script>
+    <script src="../dist/js/theme.js"></script>
+
 </body>
+
 </html>
