@@ -1,10 +1,10 @@
-@import "../abstracts/variables-theme";
+@import "../abstracts/variables/variables-theme";
 
 $ool-checkbox-checkmark-css-icon: true;
 $ool-checkbox-checkmark-font-icon: false;
 $ool-checkbox-checkmark-img-icon: false;
 
-.md-checkbox-radio {
+.fw-checkbox-radio {
   display: block;
 
   > label {
@@ -233,7 +233,7 @@ $ool-checkbox-checkmark-img-icon: false;
 //  Sizes
 @include ch-rd-variant((
         class: (
-                '.md-checkbox-radio'
+                '.fw-checkbox-radio'
         ),
   //  Label
         label-line-height: 1.6,

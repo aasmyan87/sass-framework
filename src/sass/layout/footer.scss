@@ -1,6 +1,6 @@
-@import "../abstracts/variables-theme";
+@import "../abstracts/variables/variables-theme";
 
-.md-footer{
+.fw-footer{
   background-color: map-get($colors, primary);
   text-align: center;
   color: #fff;

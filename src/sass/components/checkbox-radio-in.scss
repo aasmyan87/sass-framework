@@ -1,10 +1,10 @@
-@import "../abstracts/variables-theme";
+@import "../abstracts/variables/variables-theme";
 
 $il-checkbox-checkmark-css-icon: true;
 $il-checkbox-checkmark-font-icon: false;
 $il-checkbox-checkmark-img-icon: false;
 
-.md-chk-rad {
+.fw-chk-rad {
   display: inline-block;
   position: relative;
   margin-bottom: 0;
@@ -239,7 +239,7 @@ $il-checkbox-checkmark-img-icon: false;
 // Sizes
 @include ch-rd-variant((
         class: (
-                '.md-chk-rad'
+                '.fw-chk-rad'
         ),
   //  Label
         label-line-height: 1.7,

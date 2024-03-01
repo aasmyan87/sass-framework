@@ -1,7 +1,7 @@
-@import "../abstracts/variables-theme";
+@import "../abstracts/variables/variables-theme";
 
 //  Core
-.md-btn {
+.fw-btn {
   display: inline-block;
   text-align: center;
   box-shadow: none;
@@ -126,7 +126,7 @@
 //  Sizes | height, line-height and border-width - required
 @include button_variant((
     class: (
-        '.md-btn'
+        '.fw-btn'
     ),
     border-radius: 0,
     font-weight: normal,

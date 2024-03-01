@@ -1,7 +1,7 @@
-@import "../abstracts/variables-theme";
+@import "../abstracts/variables/variables-theme";
 
 /** Header **/
-.md-header {
+.fw-header {
   position: relative;
   box-sizing: border-box;
   width: 100%;
@@ -48,7 +48,7 @@
 }
 
 /** Logo **/
-.md-logo {
+.fw-logo {
   position: relative;
   flex: 0 0 $header_logo_width;
   max-width: $header_logo_width;
@@ -69,7 +69,7 @@
 
 //  CLASS: header-fixed_js
 .header-fixed {
-  .md-header {
+  .fw-header {
     position: fixed;
   }
 }
@@ -78,7 +78,7 @@
 @media screen and (min-width: $media_before_collapse) {
   .header-jump_js {
     &.scrl-d, &.scrl-u, &.scrl  {
-      .md-header {
+      .fw-header {
         @media screen and (min-width: $media_before_collapse) {
           position: fixed;
           height: $header_jump_height;
@@ -87,7 +87,7 @@
 
     }
     &.scrl-d {
-      .md-header {
+      .fw-header {
         @media screen and (min-width: $media_before_collapse) {
           top: - $header_height;
           opacity: 0;
@@ -96,7 +96,7 @@
     }
 
     &.start, &.end {
-      .md-header {
+      .fw-header {
         @media screen and (min-width: $media_before_collapse) {
           transition: top $header_jump_transition;
         }
@@ -104,7 +104,7 @@
     }
 
     &.start {
-      .md-header {
+      .fw-header {
         @media screen and (min-width: $media_before_collapse) {
           top: 0;
           opacity: 1;
@@ -113,7 +113,7 @@
     }
 
     &.end {
-      .md-header {
+      .fw-header {
         @media screen and (min-width: $media_before_collapse) {
           top: - $header_height;
           position: fixed;
@@ -129,32 +129,32 @@
 //  CLASS: header-reduce_js (reduce header height on scroll)
 @media screen and (min-width: $media_before_collapse) {
   .header-reduce_js {
-    .md-header, .md-logo{
+    .fw-header, .fw-logo{
       transition: $header_reduce_transition;
     }
 
-    .md-header {
+    .fw-header {
       position: fixed;
       height: $header_reduce_height;
     }
 
-    .md-logo {
+    .fw-logo {
       max-width: $header_reduce_logo_width;
       flex: 0 0 $header_reduce_logo_width;
     }
 
     &:not(.scrl-d):not(.scrl-u):not(.scrl) {
-      .md-header {
+      .fw-header {
         height: $header_height;
       }
 
-      .md-logo {
+      .fw-logo {
         max-width: $header_reduce_logo_width;
         flex:0 0 $header_reduce_logo_width;
       }
     }
     &.scrl {
-      .md-header, .md-logo {
+      .fw-header, .fw-logo {
         transition: none !important;
       }
     }
@@ -170,28 +170,28 @@
     right: 0;
     top: 0;
     z-index: 999;
-    .md-header, .md-logo {
+    .fw-header, .fw-logo {
       transition: $header-transparent_transition;
     }
 
-    .md-header {
+    .fw-header {
       height: $header_transparent_height;
     }
 
     &:not(.scrl-d):not(.scrl-u):not(.scrl) {
-      .md-header {
+      .fw-header {
         height: $header_height;
         background-color: $header_transparent_bg_color;
         box-shadow: none;
       }
 
-      .md-logo {
+      .fw-logo {
         img {
           filter: $header_transparent_logo_filter;
         }
       }
 
-      .md-menu {
+      .fw-menu {
         &--nav > li {
           > a {
             color: $header_transparent_menu_item_color;

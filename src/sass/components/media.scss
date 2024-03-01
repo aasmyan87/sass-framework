@@ -1,9 +1,10 @@
-.obj-img{
+@import "../abstracts/variables/variables-theme";
+
+.fw-obj-img{
   position: relative;
   display: block;
 }
-.obj-img img{
-  content: '';
+.fw-obj-img img{
   width: 100%;
   height: 100%;
   display: block;
@@ -14,6 +15,11 @@
   bottom: 0;
   top: 0;
 }
-.md-col-img{
-  padding-bottom: 50%;
+.fw-post-img{
+  padding-bottom: 65%;
+  background-color: #eee;
+}
+.fw-spost-img{
+  padding-bottom: 49.412%;
+  background-color: #eee;
 }

@@ -1,4 +1,4 @@
-@import "../abstracts/variables-theme";
+@import "../abstracts/variables/variables-theme";
 
 body{
   color: $body_color;
@@ -32,7 +32,6 @@ h6, .h6{
   text-transform: $headings_text_transform;
   letter-spacing: $headings_letter_spacing;
   margin-bottom: $headings_margin_bottom;
-  clear: both;
 }
 
 h1, .h1{
@@ -122,6 +121,11 @@ ul, ol{
     margin: $list_child_margin;
     padding: $list_child_padding;
   }
+}
+.list-reset{
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 table{

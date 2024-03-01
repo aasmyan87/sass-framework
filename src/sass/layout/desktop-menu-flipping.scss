@@ -22,8 +22,17 @@
     align-items: center;
     list-style: none;
     font-weight: $desktop_menu_font_weight;
+    letter-spacing: -.5px;
+    @include media-breakpoint-down(xl){
+      margin-left: 15px;
+      margin-right: 15px;
+    }
     @media screen and (min-width: $media_before_collapse) {
       height: 100%;
+    }
+    @media screen and (max-width: 1100px) {
+      font-size: 16px;
+
     }
     li {
       padding: 0;
@@ -61,6 +70,9 @@
       color: $desktop_menu_item_color;
       border-radius: $desktop_menu_item_border_radius;
       position: relative;
+      @media screen and (max-width: 1100px) {
+        padding: 0 10px;
+      }
     }
 
     &:hover {
@@ -95,7 +107,7 @@
       }
 
       // Sub First: Expand
-      > .fw-menu--sub {
+      > .fw-menu--sub-container {
         @media screen and (min-width: $media_before_collapse) {
           animation: sub-menu-expand--first .2s 0s linear alternate backwards;
           display: block !important;
@@ -123,25 +135,40 @@
   //  Menu Sub: styles
   &--sub {
     font-size: $desktop_submenu_item_font_size;
+    font-family: $menu_font_family;
     text-transform: $desktop_submenu_item_text_transform;
     background-color: $desktop_submenu_bg_color;
-    width: $desktop_submenu_width;
+    margin: auto !important;
     padding-top: $desktop_submenu_padding_y;
     padding-bottom: $desktop_submenu_padding_y;
     box-shadow: $desktop_submenu_box_shadow;
-    position: absolute;
-    top: 100%;
-    left: 0;
+    position: static;
     font-weight: normal;
+    letter-spacing: normal;
+    &-container{
+      width: 100%;
+      @media screen and (min-width: $media_before_collapse) {
+        box-shadow: $desktop_submenu_box_shadow;
+        display: flex;
+        justify-content: center;
+        left: 0;
+        background-color: $desktop_submenu_bg_color;
+        position: absolute;
+        top: 100%;
+        width: $desktop_submenu_width;
+      }
+      @media screen and (min-width: $media_before_collapse) {
+        display: none !important;
+      }
+    }
     @media screen and (min-width: $media_before_collapse) {
-      display: none !important;
       height: auto !important;
     }
     //  Sub: Item
     > li {
       &:hover {
         //  Sub Second: Expand
-        .fw-menu--sub {
+        .fw-menu--sub-container {
           @media screen and (min-width: $media_before_collapse) {
             animation: sub-menu-expand--second .2s 0s linear alternate backwards;
             left: $desktop_submenu_width - 1px;
@@ -149,12 +176,11 @@
             display: block !important;
           }
         }
-
-        > a {
-          @media screen and (min-width: $media_before_collapse) {
-            color: $desktop_submenu_item_color_hover;
-            background-color: $desktop_submenu_item_bg_color_hover;
-          }
+      }
+      > a:hover {
+        @media screen and (min-width: $media_before_collapse) {
+          color: $desktop_submenu_item_color_hover;
+          background-color: $desktop_submenu_item_bg_color_hover;
         }
       }
 
@@ -167,8 +193,10 @@
     }
 
     > li a {
+      display: flex;
       padding: $desktop_submenu_item_padding;
       color: $desktop_submenu_item_color;
+      width: 100%;
     }
 
     //  Menu: Display none 3rd Level
@@ -189,13 +217,6 @@
   }
 }
 
-//  No Display: Mobile Styles
-.menu-overlay,
-.menu-open-btn,
-.mobile-menu-icon,
-.icon-symbol, .icon-symbol::before {
-  display: none;
-}
 
 // ANIMATION: submenu expand
 @keyframes sub-menu-expand--first {
@@ -252,8 +273,9 @@
     }
     &.current_page_item > a::before {
       @media screen and (min-width: $media_before_collapse) {
-        width: $ext_dmiuh_width;
-        background-color: $ext_dmiuh_bg_color;
+        width: 0;
+        background-color: transparent;
+
       }
     }
   }
@@ -313,5 +335,9 @@
   }
 }
 
+.parent-menu-item{
+  font-weight: bold;
+  font-size: 22px;
+}
 
 

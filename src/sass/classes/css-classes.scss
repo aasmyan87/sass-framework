@@ -1,14 +1,10 @@
-@import "../abstracts/variables-theme";
+@import "../abstracts/variables/variables-theme";
 
 //  CLASS: link color (example: link-purple)
-@include link-color(purple, #cd1bcd, #cd1bcd, #c927c9, false, false);
+@include link-color(dark, map-get($colors, dark));
+@include link-color(white, map-get($colors, white));
 
-//  lists
-.list-reset{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+
 
 //  Bootstrap class generator
 $utilities: (
@@ -49,6 +45,42 @@ $utilities: (
             center: center,
         )
     ),
+    "margin-bottom": (
+        responsive: false,
+        property: margin-bottom,
+        class: mb,
+        values: (
+            0:  0,
+            15: 15px,
+            30: 30px
+        )
+    ),
+    "margin-top": (
+        responsive: false,
+        property: margin-top,
+        class: mt,
+        values: (
+            0:  0,
+            15: 15px,
+            30: 30px
+        )
+    ),
+    "container:": (
+        responsive: false,
+        property: max-width,
+        class: container,
+        values: (
+            sm: 1024px
+        )
+    ),
+    "display": (
+            responsive: true,
+            print: true,
+            property: display,
+            class: d,
+            values: inline inline-block block grid table table-row table-cell flex inline-flex none
+    ),
+
 );
 
 @import "../../bootstrap/utilities/api";

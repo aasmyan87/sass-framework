@@ -1,19 +1,13 @@
 //  Link color generator (set class on parent section)
-@mixin link-color($color-name, $color, $color-visited, $color-hover, $decoration, $decoration-hover){
+@mixin link-color($color-name, $color){
   .link-#{$color-name}{
     a{
       color: $color;
-      @if($decoration){
-        text-decoration: underline;
-      }
       &:visited{
-        color: $color-visited;
+        color: $color;
       }
       &:hover{
-        color: $color-hover;
-        @if($decoration-hover){
-          text-decoration: underline;
-        }
+        color: $color;
       }
     }
   }

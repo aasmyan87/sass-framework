@@ -106,8 +106,9 @@ function theme_css_array( $base_css = [] ){
 
 //  Get JS Scripts
 function theme_scripts($file = '', $folder = '', $loading = ''){
+    $path = !empty( $folder ) ? $folder.'/' : '';
     ?>
-    <script <?php echo $loading; ?> src="<?php echo '../dist/js/'.$folder.'/'.$file; ?>"></script>
+    <script <?php echo $loading; ?> src="<?php echo '../dist/js/'.$path.$file; ?>"></script>
     <?php
 }
 
