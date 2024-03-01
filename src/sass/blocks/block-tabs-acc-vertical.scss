@@ -1,7 +1,7 @@
 @import "../abstracts/variables-theme";
 
 //  File Part: Vertical Tabs
-.md-tbv {
+.fw-tbv {
   &--head {
     font-size: $vrt_tabs_head_font_size;
     font-weight: $vrt_tabs_head_font_weight;
@@ -79,7 +79,7 @@
       color: $vrt_tabs_mob_tab_color_active;
       background-color: $vrt_tabs_mob_tab_bg_color_active;
     }
-    .md-tbv--ico{
+    .fw-tbv--ico{
       @include media-breakpoint-down($hrz_tabs_breakpoint) {
         transform: rotate(90deg);
       }
@@ -111,7 +111,7 @@
   }
 
   &--content.active {
-    .md-tbv--inner {
+    .fw-tbv--inner {
       animation: tabs_content_open .1s 0.02s ease-in-out backwards;
       @include media-breakpoint-up($vrt_tabs_breakpoint) {
         display: block !important;
@@ -121,7 +121,7 @@
   }
   @if($vrt_tabs_first_child_open){
     &--content:first-child{
-      .md-tbv--inner {
+      .fw-tbv--inner {
         display: block;
       }
     }

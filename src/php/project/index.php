@@ -1,6 +1,6 @@
 <?php include('parts/header.php') ?>
-<main class="md-main">
-    <section class="md-section">
+<main class="fw-main">
+    <section class="fw-section">
         <div class="container">
             <h1>Welcome!</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias beatae dolores doloribus et laboriosam

@@ -19,12 +19,12 @@ $slides = [
 
 ?>
 <section>
-    <div class="md-fsl">
+    <div class="fw-fsl">
         <div id="full-slider_js" class="slick-slider slick-preloader">
             <?php foreach ($slides as $key => $slide) {  ?>
-                <div class="md-fsl--slide">
-                    <div class="md-fsl--inner">
-                        <div class="md-fsl--content container">
+                <div class="fw-fsl--slide">
+                    <div class="fw-fsl--inner">
+                        <div class="fw-fsl--content container">
                             <h1 class="<?php echo $slide['title-class'] ?> text-center"><?php echo $slide['title'] ?></h1>
                         </div>
                         <img src="../src/images/bg-<?php echo $key; ?>.jpg" alt="<?php echo $slide['title'] ?>">
@@ -32,7 +32,7 @@ $slides = [
                 </div>
             <?php  } ?>
         </div>
-        <div class="md-fsl--arrw">
+        <div class="fw-fsl--arrw">
             <button aria-label="Prev Slide" class="arrw-prev">
                 <i class="lni lni-chevron-left"></i>
             </button>
@@ -40,12 +40,12 @@ $slides = [
                 <i class="lni lni-chevron-right"></i>
             </button>
         </div>
-        <div id="md-fsl-dots_js" class="md-fsl--dots"></div>
+        <div id="fw-fsl-dots_js" class="fw-fsl--dots"></div>
     </div>
 
 </section>
 
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur modi perspiciatis saepe unde.
             Adipisci animi at, cupiditate, dolore dolores ea harum iste molestiae necessitatibus nisi officia,

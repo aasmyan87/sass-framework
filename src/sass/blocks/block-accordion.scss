@@ -1,14 +1,14 @@
 @import "../abstracts/variables-theme";
 
 //  File Part: Accordion Tabs
-.md-acc {
+.fw-acc {
 
   &--item{
     border: 1px solid $acc_item_border_color;
     margin-bottom: $acc_item_margin_bottom;
   }
   &--item:first-child{
-    .md-acc--content{
+    .fw-acc--content{
       display: block;
     }
   }
@@ -37,7 +37,7 @@
     &.active{
       color: $acc_item_color_active;
       background-color: $acc_item_bg_color_active;
-      .md-acc--ico{
+      .fw-acc--ico{
         transform: rotate(90deg);
       }
     }

@@ -24,33 +24,33 @@ $slides = [
 ]
 
 ?>
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
-        <div class="md-gsl">
+        <div class="fw-gsl">
             <button aria-label="Prev Slide" class="arrw-prev remove-gsl-arrow-preload">
                 <i class="lni lni-chevron-left"></i>
             </button>
-            <div class="md-gsl--outer remove-gsl-preload-height">
+            <div class="fw-gsl--outer remove-gsl-preload-height">
                 <div id="grid-slider_js" class="slick-slider slick-preloader">
                     <?php foreach ($slides as $key => $slide) {  ?>
                         <div class="">
-                            <div class="md-gsl--inner">
+                            <div class="fw-gsl--inner">
                                 <?php echo $slide['text']; ?>
                             </div>
                         </div>
                     <?php  } ?>
                 </div>
-                <div id="md-fgl-dots_js" class="md-fgl--dots"></div>
+                <div id="fw-fgl-dots_js" class="fw-fgl--dots"></div>
             </div>
             <button aria-label="Next Slide" class="arrw-next remove-gsl-arrow-preload">
                 <i class="lni lni-chevron-right"></i>
             </button>
-            <div id="md-gsl-dots_js" class="md-gsl--dots"></div>
+            <div id="fw-gsl-dots_js" class="fw-gsl--dots"></div>
         </div>
     </div>
 </section>
 
-<section class="md-section bg-secondary has-bg">
+<section class="fw-section bg-secondary has-bg">
     <div class="container">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur modi perspiciatis saepe unde.
             Adipisci animi at, cupiditate, dolore dolores ea harum iste molestiae necessitatibus nisi officia,

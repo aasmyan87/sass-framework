@@ -1,5 +1,5 @@
 <?php include('parts/header.php') ?>
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
         <h1>Welcome hey!</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate explicabo nulla quae veritatis

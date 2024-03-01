@@ -1,5 +1,5 @@
 </main>
-<footer class="md-footer">
+<footer class="fw-footer">
     <div class="container">
         Footer
     </div>

@@ -1,7 +1,7 @@
 @import "../abstracts/variables-theme";
 
 //  File Part: Horizontal Tabs
-.md-tb {
+.fw-tb {
   &--head {
     font-size: $hrz_tabs_head_font_size;
     font-weight: $hrz_tabs_head_font_weight;
@@ -79,7 +79,7 @@
       color: $hrz_tabs_mob_tab_color_active;
       background-color: $hrz_tabs_mob_tab_bg_color_active;
     }
-    .md-tb--ico{
+    .fw-tb--ico{
       @include media-breakpoint-down($hrz_tabs_breakpoint) {
         transform: rotate(90deg);
       }
@@ -110,7 +110,7 @@
   }
 
   &--content.active {
-    .md-tb--inner {
+    .fw-tb--inner {
       animation: tabs_content_open .1s 0.02s ease-in-out backwards;
       @include media-breakpoint-up($hrz_tabs_breakpoint) {
         display: block !important;
@@ -120,7 +120,7 @@
   }
   @if($hrz_tabs_first_child_open){
     &--content:first-child{
-      .md-tb--inner {
+      .fw-tb--inner {
         display: block;
       }
     }

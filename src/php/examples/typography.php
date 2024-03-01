@@ -1,5 +1,5 @@
 <?php include('parts/header.php') ?>
-<section class="md-section has-bg brd-bottom brd-primary">
+<section class="fw-section has-bg brd-bottom brd-primary">
     <div class="container">
         <h2 class="color-secondary bg-primary" style="word-break: break-all; padding: 10px 15px">Headings</h2>
         <h1>Heading Title H1</h1>
@@ -10,7 +10,7 @@
         <h6>Heading Title H6</h6>
     </div>
 </section>
-<section class="md-section has-bg brd-bottom brd-primary">
+<section class="fw-section has-bg brd-bottom brd-primary">
     <div class="container">
         <h2 class="color-secondary bg-primary" style="padding: 10px 15px">Paragraph, Link, STRONG/B, Mark, Small</h2>
         <h4>Paragraphs</h4>
@@ -46,7 +46,7 @@
         </p>
     </div>
 </section>
-<section class="md-section has-bg brd-bottom brd-primary">
+<section class="fw-section has-bg brd-bottom brd-primary">
     <div class="container">
         <h2 class="color-secondary bg-primary" style="word-break: break-all; padding: 10px 15px">Code/Pre/KBD/Samp</h2>
         <h4>Code</h4>
@@ -65,7 +65,7 @@
             similique, tenetur!</p>
     </div>
 </section>
-<section class="md-section has-bg brd-bottom brd-primary">
+<section class="fw-section has-bg brd-bottom brd-primary">
     <div class="container">
         <h2 class="color-secondary bg-primary" style="word-break: break-all; padding: 10px 15px">Ul List/ OL list/ Dl Lists</h2>
         <h4>Ul list</h4>
@@ -197,7 +197,7 @@
         </dl>
     </div>
 </section>
-<section class="md-section has-bg brd-bottom brd-primary">
+<section class="fw-section has-bg brd-bottom brd-primary">
     <div class="container">
         <h2 class="color-secondary bg-primary" style="word-break: break-all; padding: 10px 15px">Blockquote</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consectetur cumque delectus doloribus
@@ -208,7 +208,7 @@
         </blockquote>
     </div>
 </section>
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
         <h2 class="color-secondary bg-primary" style="padding: 10px 15px">Table</h2>
         <table>

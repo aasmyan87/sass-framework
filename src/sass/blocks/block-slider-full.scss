@@ -1,6 +1,6 @@
 @import "../abstracts/variables-theme";
 
-.md-fsl{
+.fw-fsl{
   min-height: $bgi_slider__height;
   position: relative;
   @include media-breakpoint-down(lg){

@@ -26,17 +26,17 @@ $tabs = [
 
 ?>
 
-<section class="md-section has-bg">
+<section class="fw-section has-bg">
     <div class="container">
-        <h2 class="md-section--title">Accordion</h2>
-        <div class="md-acc">
+        <h2 class="fw-section--title">Accordion</h2>
+        <div class="fw-acc">
             <?php foreach ($tabs as $key => $value) { ?>
-                <div class="md-acc--item">
-                    <a class="md-acc--nav ac-nav_js <?php echo $value['class']; ?>" href="#" >
+                <div class="fw-acc--item">
+                    <a class="fw-acc--nav ac-nav_js <?php echo $value['class']; ?>" href="#" >
                         <span><?php echo $value['label']; ?></span>
-                        <span class="md-acc--ico">></span>
+                        <span class="fw-acc--ico">></span>
                     </a>
-                    <div class="md-acc--content">
+                    <div class="fw-acc--content">
                         <?php if($key == 1) : ?>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet commodi corporis in iure laborum molestias quo temporibus! Accusamus doloribus eligendi enim exercitationem ipsum laborum non pariatur perspiciatis ratione saepe.
                         <?php elseif ($key == 2) :?>

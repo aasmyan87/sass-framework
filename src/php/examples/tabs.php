@@ -26,12 +26,12 @@ $tabs_hor = [
 
 ];
 ?>
-<section class="md-section has-bg brd-bottom brd-primary">
+<section class="fw-section has-bg brd-bottom brd-primary">
     <div class="container">
-        <h2 class="md-section--title">Horizontal Tabs</h2>
-        <div class="md-tb">
-            <div  class="md-tb--head">
-                <ul class="md-tb--nav">
+        <h2 class="fw-section--title">Horizontal Tabs</h2>
+        <div class="fw-tb">
+            <div  class="fw-tb--head">
+                <ul class="fw-tb--nav">
                     <?php foreach ($tabs_hor as $key => $value) { ?>
                         <li data-tab="tab<?php echo $key; ?>" class="<?php echo $value['class']; ?>">
                             <a class="tabs-nav_js"  href="#">
@@ -41,14 +41,14 @@ $tabs_hor = [
                     <?php } ?>
                 </ul>
             </div>
-            <div class="md-tb--tabs">
+            <div class="fw-tb--tabs">
                 <?php foreach ($tabs_hor as $key => $value) { ?>
-                    <div id="tab<?php echo $key; ?>" class="md-tb--content <?php echo $value['class']; ?>">
-                        <a class="md-tb--nav-mob acc-nav_js <?php echo $value['class']; ?>" href="#" >
+                    <div id="tab<?php echo $key; ?>" class="fw-tb--content <?php echo $value['class']; ?>">
+                        <a class="fw-tb--nav-mob acc-nav_js <?php echo $value['class']; ?>" href="#" >
                             <span><?php echo $value['label']; ?></span>
-                            <span class="md-tb--ico">></span>
+                            <span class="fw-tb--ico">></span>
                         </a>
-                        <div class="md-tb--inner">
+                        <div class="fw-tb--inner">
                             <?php if($key == 1) : ?>
                                 Content 1
                             <?php elseif ($key == 2) :?>
@@ -94,14 +94,14 @@ $tabs_ver = [
 
 ];
 ?>
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
-        <h2 class="md-section--title">Vertical Tabs</h2>
-        <div class="md-tb">
+        <h2 class="fw-section--title">Vertical Tabs</h2>
+        <div class="fw-tb">
             <div class="row">
-                <div class="col-md-4">
-                    <div  class="md-tbv--head">
-                        <ul class="md-tbv--nav">
+                <div class="col-fw-4">
+                    <div  class="fw-tbv--head">
+                        <ul class="fw-tbv--nav">
                             <?php foreach ($tabs_ver as $key => $value) { ?>
                                 <li data-tab="tabb<?php echo $key; ?>" class="<?php echo $value['class']; ?>">
                                     <a class="tabs-nav_js"  href="#">
@@ -112,15 +112,15 @@ $tabs_ver = [
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-8">
-                    <div class="md-tbv--tabs">
+                <div class="col-fw-8">
+                    <div class="fw-tbv--tabs">
                         <?php foreach ($tabs_ver as $key => $value) { ?>
-                            <div id="tabb<?php echo $key; ?>" class="md-tbv--content <?php echo $value['class']; ?>">
-                                <a class="md-tbv--nav-mob acc-nav_js <?php echo $value['class']; ?>" href="#" >
+                            <div id="tabb<?php echo $key; ?>" class="fw-tbv--content <?php echo $value['class']; ?>">
+                                <a class="fw-tbv--nav-mob acc-nav_js <?php echo $value['class']; ?>" href="#" >
                                     <span><?php echo $value['label']; ?></span>
-                                    <span class="md-tbv--ico">></span>
+                                    <span class="fw-tbv--ico">></span>
                                 </a>
-                                <div class="md-tbv--inner">
+                                <div class="fw-tbv--inner">
                                     <?php if($key == 1) : ?>
                                         Content 1
                                     <?php elseif ($key == 2) :?>

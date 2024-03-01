@@ -83,7 +83,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 $('.general-menu_js *').removeClass('active');
             });
         }
-        // fw_mobile_menu();
+        fw_mobile_menu();
 
         //  Flipping Menu
         function fw_mobile_flipping_menu(){
@@ -164,7 +164,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 $('.general-menu_js *').removeClass('active');
             });
         }
-        fw_mobile_flipping_menu();
+        //fw_mobile_flipping_menu();
 
 
         function fw_desktop_menu_keyboard_support(){
@@ -212,8 +212,8 @@ window.addEventListener('DOMContentLoaded', function() {
             })
         }
 
-        // fw_add_scrolled_class('.header-reduce_js', 500);
-        // fw_add_scrolled_class('.header-transparent_js', 500);
+        fw_add_scrolled_class('.header-reduce_js', 500);
+        fw_add_scrolled_class('.header-transparent_js', 500);
 
 
         // Function: jump header on scroll

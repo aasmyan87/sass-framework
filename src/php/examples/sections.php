@@ -1,7 +1,7 @@
 <?php include('parts/header.php') ?>
-<section class="md-section has-bg bg-primary color-white link-purple">
+<section class="fw-section has-bg bg-primary color-white link-purple">
     <div class="container">
-        <h2 class="md-section--title color-white">Background Color Section</h2>
+        <h2 class="fw-section--title color-white">Background Color Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -10,9 +10,9 @@
     </div>
 </section>
 
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
-        <h2 class="md-section--title">Basic Section</h2>
+        <h2 class="fw-section--title">Basic Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -21,10 +21,10 @@
     </div>
 </section>
 
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
-        <header class="md-section--head">
-            <h2 class="md-section--title">Advanced Section</h2>
+        <header class="fw-section--head">
+            <h2 class="fw-section--title">Advanced Section</h2>
             <p><strong>Head text:</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
         </header>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
@@ -34,9 +34,9 @@
             voluptate!</p>
     </div>
 </section>
-<section class="md-section psect">
+<section class="fw-section psect">
     <div class="container">
-        <h2 class="md-section--title">Basic Section</h2>
+        <h2 class="fw-section--title">Basic Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -85,10 +85,10 @@
     </div>
 </section>
 
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
-        <header class="md-section--head">
-            <h2 class="md-section--title">Advanced Section</h2>
+        <header class="fw-section--head">
+            <h2 class="fw-section--title">Advanced Section</h2>
             <p><strong>Head text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
         </header>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
@@ -99,9 +99,9 @@
     </div>
 </section>
 
-<section class="md-section has-bg bg-secondary color-white link-purple">
+<section class="fw-section has-bg bg-secondary color-white link-purple">
     <div class="container">
-        <h2 class="md-section--title color-white">Background Color Section</h2>
+        <h2 class="fw-section--title color-white">Background Color Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -110,9 +110,9 @@
     </div>
 </section>
 
-<section class="md-section has-bg bg-primary color-white link-purple">
+<section class="fw-section has-bg bg-primary color-white link-purple">
     <div class="container">
-        <h2 class="md-section--title color-white">Background Color Section</h2>
+        <h2 class="fw-section--title color-white">Background Color Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -121,9 +121,9 @@
     </div>
 </section>
 
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
-        <h2 class="md-section--title">Basic Section</h2>
+        <h2 class="fw-section--title">Basic Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -132,10 +132,10 @@
     </div>
 </section>
 
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
-        <header class="md-section--head">
-            <h2 class="md-section--title">Advanced Section</h2>
+        <header class="fw-section--head">
+            <h2 class="fw-section--title">Advanced Section</h2>
             <p><strong>Head text:</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
         </header>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
@@ -146,9 +146,9 @@
     </div>
 </section>
 
-<section class="md-section has-bg has-cover cover-black color-white link-purple">
-    <div class="container md-content">
-        <h2 class="md-section--title color-white">Background image [img tag] Section</h2>
+<section class="fw-section has-bg has-cover cover-black color-white link-purple">
+    <div class="container fw-content">
+        <h2 class="fw-section--title color-white">Background image [img tag] Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -158,9 +158,9 @@
     <?php theme_get_picture('bg-5.jpg', 'bg-5.jpg', 'bg-img', 'BACKGROUND IMAGE [IMG TAG] SECTION') ?>
 </section>
 
-<section class="md-section has-bg brd-bottom brd-secondary">
+<section class="fw-section has-bg brd-bottom brd-secondary">
     <div class="container">
-        <h2 class="md-section--title">Border Section</h2>
+        <h2 class="fw-section--title">Border Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -169,9 +169,9 @@
     </div>
 </section>
 
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
-        <h2 class="md-section--title">Basic Section</h2>
+        <h2 class="fw-section--title">Basic Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -180,9 +180,9 @@
     </div>
 </section>
 
-<section class="md-section has-bg has-cover cover-black color-white link-purple" style="background-image: url(../dist/images/bg-1.jpg)">
+<section class="fw-section has-bg has-cover cover-black color-white link-purple" style="background-image: url(../dist/images/bg-1.jpg)">
     <div class="container">
-        <h2 class="md-section--title color-white">Background Image Section</h2>
+        <h2 class="fw-section--title color-white">Background Image Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -191,9 +191,9 @@
     </div>
 </section>
 
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
-        <h2 class="md-section--title">Basic Section</h2>
+        <h2 class="fw-section--title">Basic Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -202,10 +202,10 @@
     </div>
 </section>
 
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
-        <header class="md-section--head">
-            <h2 class="md-section--title">Advanced Section</h2>
+        <header class="fw-section--head">
+            <h2 class="fw-section--title">Advanced Section</h2>
             <p><strong>Head text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
         </header>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
@@ -216,9 +216,9 @@
     </div>
 </section>
 
-<section class="md-section has-bg has-parallax color-white link-purple" style="background-image: url(../dist/images/bg-1.jpg)">
+<section class="fw-section has-bg has-parallax color-white link-purple" style="background-image: url(../dist/images/bg-1.jpg)">
     <div class="container">
-        <h2 class="md-section--title color-white">Background Image Section</h2>
+        <h2 class="fw-section--title color-white">Background Image Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -227,9 +227,9 @@
     </div>
 </section>
 
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
-        <h2 class="md-section--title">Basic Section</h2>
+        <h2 class="fw-section--title">Basic Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -238,10 +238,10 @@
     </div>
 </section>
 
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
-        <header class="md-section--head">
-            <h2 class="md-section--title">Advanced Section</h2>
+        <header class="fw-section--head">
+            <h2 class="fw-section--title">Advanced Section</h2>
             <p><strong>Head text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
         </header>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
@@ -251,9 +251,9 @@
             voluptate!</p>
     </div>
 </section>
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
-        <h2 class="md-section--title">Basic Section</h2>
+        <h2 class="fw-section--title">Basic Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -262,10 +262,10 @@
     </div>
 </section>
 
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
-        <header class="md-section--head">
-            <h2 class="md-section--title">Advanced Section</h2>
+        <header class="fw-section--head">
+            <h2 class="fw-section--title">Advanced Section</h2>
             <p><strong>Head text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
         </header>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
@@ -276,9 +276,9 @@
     </div>
 </section>
 
-<section class="md-section has-bg bg-secondary color-white link-purple">
+<section class="fw-section has-bg bg-secondary color-white link-purple">
     <div class="container">
-        <h2 class="md-section--title color-white">Background Color Section</h2>
+        <h2 class="fw-section--title color-white">Background Color Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -287,9 +287,9 @@
     </div>
 </section>
 
-<section class="md-section has-bg bg-primary color-white link-purple">
+<section class="fw-section has-bg bg-primary color-white link-purple">
     <div class="container">
-        <h2 class="md-section--title color-white">Background Color Section</h2>
+        <h2 class="fw-section--title color-white">Background Color Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -298,9 +298,9 @@
     </div>
 </section>
 
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
-        <h2 class="md-section--title">Basic Section</h2>
+        <h2 class="fw-section--title">Basic Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -309,10 +309,10 @@
     </div>
 </section>
 
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
-        <header class="md-section--head">
-            <h2 class="md-section--title">Advanced Section</h2>
+        <header class="fw-section--head">
+            <h2 class="fw-section--title">Advanced Section</h2>
             <p><strong>Head text:</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
         </header>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
@@ -323,9 +323,9 @@
     </div>
 </section>
 
-<section class="md-section has-bg has-cover cover-black color-white link-purple">
-    <div class="container md-content">
-        <h2 class="md-section--title color-white">Background image [img tag] Section</h2>
+<section class="fw-section has-bg has-cover cover-black color-white link-purple">
+    <div class="container fw-content">
+        <h2 class="fw-section--title color-white">Background image [img tag] Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -335,9 +335,9 @@
     <?php theme_get_picture('bg-5.jpg', 'bg-5.jpg', 'bg-img', 'BACKGROUND IMAGE [IMG TAG] SECTION') ?>
 </section>
 
-<section class="md-section has-bg brd-bottom brd-secondary">
+<section class="fw-section has-bg brd-bottom brd-secondary">
     <div class="container">
-        <h2 class="md-section--title">Border Section</h2>
+        <h2 class="fw-section--title">Border Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -346,9 +346,9 @@
     </div>
 </section>
 
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
-        <h2 class="md-section--title">Basic Section</h2>
+        <h2 class="fw-section--title">Basic Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -357,9 +357,9 @@
     </div>
 </section>
 
-<section class="md-section has-bg has-cover cover-black color-white link-purple" style="background-image: url(../dist/images/bg-1.jpg)">
+<section class="fw-section has-bg has-cover cover-black color-white link-purple" style="background-image: url(../dist/images/bg-1.jpg)">
     <div class="container">
-        <h2 class="md-section--title color-white">Background Image Section</h2>
+        <h2 class="fw-section--title color-white">Background Image Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -368,9 +368,9 @@
     </div>
 </section>
 
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
-        <h2 class="md-section--title">Basic Section</h2>
+        <h2 class="fw-section--title">Basic Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -379,10 +379,10 @@
     </div>
 </section>
 
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
-        <header class="md-section--head">
-            <h2 class="md-section--title">Advanced Section</h2>
+        <header class="fw-section--head">
+            <h2 class="fw-section--title">Advanced Section</h2>
             <p><strong>Head text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
         </header>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
@@ -393,9 +393,9 @@
     </div>
 </section>
 
-<section class="md-section has-bg has-parallax color-white link-purple" style="background-image: url(../dist/images/bg-1.jpg)">
+<section class="fw-section has-bg has-parallax color-white link-purple" style="background-image: url(../dist/images/bg-1.jpg)">
     <div class="container">
-        <h2 class="md-section--title color-white">Background Image Section</h2>
+        <h2 class="fw-section--title color-white">Background Image Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -404,9 +404,9 @@
     </div>
 </section>
 
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
-        <h2 class="md-section--title">Basic Section</h2>
+        <h2 class="fw-section--title">Basic Section</h2>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
             <a href="">Aliquam assumenda autem commodi consequatur dignissimos</a>, dolorem eaque esse eum facere fuga
             labore minima natus nemo neque nisi officiis quis quos ratione rerum sit suscipit tempora
@@ -415,10 +415,10 @@
     </div>
 </section>
 
-<section class="md-section">
+<section class="fw-section">
     <div class="container">
-        <header class="md-section--head">
-            <h2 class="md-section--title">Advanced Section</h2>
+        <header class="fw-section--head">
+            <h2 class="fw-section--title">Advanced Section</h2>
             <p><strong>Head text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate deleniti dicta dolore eius facilis laborum modi, nobis, obcaecati odio omnis pariatur quas reiciendis sapiente similique sunt ullam voluptatem.</p>
         </header>
         <p><strong>Section text: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum dolorum eaque est?
