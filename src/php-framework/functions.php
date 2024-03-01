@@ -62,7 +62,8 @@ function theme_get_meta_title($home_title = ''){
 function theme_css($file = '', $folder = '', $preload = false){
     ?>
     <?php if($preload) : ?>
-        <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="<?php echo '../dist/css/'.$folder.'/'.$file; ?>" media="all"/>
+        <link rel="preload" as="style" href="<?php echo '../dist/css/'.$folder.'/'.$file; ?>" media="all"/>
+        <link rel="stylesheet" href="<?php echo '../dist/css/'.$folder.'/'.$file; ?>" media="all"/>
     <?php else: ?>
         <link rel="stylesheet" href="<?php echo '../dist/css/'.$folder.'/'.$file; ?>" media="all"/>
     <?php endif; ?>
@@ -70,9 +71,14 @@ function theme_css($file = '', $folder = '', $preload = false){
 }
 
 //  Get CSS Array Styles
-function theme_css_array( $base_css = [] ){
+function theme_css_array( $base_css = [], $preload = false ){
     foreach ($base_css as $css) { ?>
-        <link rel="stylesheet" href="../dist/css/<?php echo $css ?>" media="all"/>
+        <?php if($preload) : ?>
+            <link rel="preload" as="style" href="../dist/css/<?php echo $css ?>" media="all"/>
+            <link rel="stylesheet" href="../dist/css/<?php echo $css ?>" media="all"/>
+        <?php else: ?>
+            <link rel="stylesheet" href="../dist/css/<?php echo $css ?>" media="all"/>
+        <?php endif; ?>
         <?php
     }
 }

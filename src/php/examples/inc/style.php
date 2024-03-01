@@ -20,7 +20,7 @@
         'layout/sidebar.css',
     ];
 
-    theme_css_array($base_css);
+    theme_css_array($base_css, '');
 
     if(is_part('index')){
         theme_css('home.css', 'pages');
