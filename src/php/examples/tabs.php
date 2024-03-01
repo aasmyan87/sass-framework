@@ -46,7 +46,7 @@ $tabs_hor = [
                     <div id="tab<?php echo $key; ?>" class="fw-tb--content <?php echo $value['class']; ?>">
                         <a class="fw-tb--nav-mob acc-nav_js <?php echo $value['class']; ?>" href="#" >
                             <span><?php echo $value['label']; ?></span>
-                            <span class="fw-tb--ico">></span>
+                            <i class="fw-tb--ico icon-angle-down"></i>
                         </a>
                         <div class="fw-tb--inner">
                             <?php if($key == 1) : ?>
@@ -118,7 +118,7 @@ $tabs_ver = [
                             <div id="tabb<?php echo $key; ?>" class="fw-tbv--content <?php echo $value['class']; ?>">
                                 <a class="fw-tbv--nav-mob acc-nav_js <?php echo $value['class']; ?>" href="#" >
                                     <span><?php echo $value['label']; ?></span>
-                                    <span class="fw-tbv--ico">></span>
+                                    <i class="fw-tb--ico icon-angle-down"></i>
                                 </a>
                                 <div class="fw-tbv--inner">
                                     <?php if($key == 1) : ?>

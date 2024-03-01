@@ -34,7 +34,7 @@ $tabs = [
                 <div class="fw-acc--item">
                     <a class="fw-acc--nav ac-nav_js <?php echo $value['class']; ?>" href="#" >
                         <span><?php echo $value['label']; ?></span>
-                        <span class="fw-acc--ico">></span>
+                        <i class="fw-acc--ico icon-angle-down"></i>
                     </a>
                     <div class="fw-acc--content">
                         <?php if($key == 1) : ?>

@@ -39,33 +39,6 @@ function theme_print_inline_styles($styles_array = []){
     }
 }
 
-//  Get svg Icon
-function theme_get_svg_icon( $icon_id, $color = '', $size = '', $margin_top = '', $margin_bottom = '' ){
-    $file_path = '../dist/icons/icons.svg';
-
-    $styles = [
-        'color' => !empty( $color ) ? "color:$color; " : "",
-        'size' =>  !empty( $size ) ? "width:$size"."px; height:$size"."px;" : "",
-        'margin-top' => !empty( $margin_top ) ? "margin-top:$margin_top"."px;" : "",
-        'margin-bottom' => !empty( $margin_bottom ) ? "margin-bottom:$margin_bottom"."px;" : ""
-    ];
-
-    ob_start();
-    ?>
-    <?php if($icon_id): ?>
-        <span style="<?php theme_print_inline_styles( $styles ) ?>" class="svg-icon">
-            <svg role="img">
-                <use xlink:href="<?php  echo $file_path.'#'.$icon_id; ?>"/>
-            </svg>
-        </span>
-    <?php else :  echo '<small style="color: red; display: block">ID not selected</small>'; ?>
-
-    <?php endif;?>
-
-    <?php
-    return ob_get_clean();
-}
-
 //  Get Website Favicon
 function theme_get_favicon($url = ''){
     ?>
@@ -130,7 +103,7 @@ function theme_get_picture($img_1x = '', $img_2x ='', $class = '', $alt ='', $la
     list($width, $height, $type, $attr) = getimagesize($project_images_path_abs.$img_1x);
     ?>
     <picture class="<?php echo $class; ?>">
-        <source srcset="<?php echo $project_images_path.$img_1x; ?> 1x, <?php echo $project_images_path.$img_2x; ?> 2x" media="(min-width: 768px)">
+        <source srcset="<?php echo $project_images_path.$img_1x; ?> 1x, <?php echo $project_images_path.$img_2x; ?> 2x">
         <source srcset="<?php echo $project_images_path.$img_1x; ?>" media="(max-width: 767px)">
         <img
             width="<?php echo $width; ?>"

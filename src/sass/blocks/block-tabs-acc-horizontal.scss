@@ -81,7 +81,7 @@
     }
     .fw-tb--ico{
       @include media-breakpoint-down($hrz_tabs_breakpoint) {
-        transform: rotate(90deg);
+        transform: rotate(180deg);
       }
     }
   }
