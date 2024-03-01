@@ -101,7 +101,13 @@ gulp.task('watch', function () {
     gulp.watch([
         './src/js/**/*.js'
     ], [
-        'scripts'
+        'scripts-clean'
+    ]);
+
+    gulp.watch([
+        './src/js/**/*.js'
+    ], [
+        'scripts-min'
     ]);
 
     //  HTML
