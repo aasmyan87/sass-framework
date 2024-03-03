@@ -34,10 +34,10 @@ $slides = [
         </div>
         <div class="fw-fsl--arrw">
             <button aria-label="Prev Slide" class="arrw-prev">
-                <i class="lni lni-chevron-left"></i>
+                <i class="icon-angle-left"></i>
             </button>
             <button aria-label="Next Slide" class="arrw-next">
-                <i class="lni lni-chevron-right"></i>
+                <i class="icon-angle-right"></i>
             </button>
         </div>
         <div id="fw-fsl-dots_js" class="fw-fsl--dots"></div>

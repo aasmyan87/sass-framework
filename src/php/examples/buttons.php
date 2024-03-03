@@ -48,7 +48,7 @@
 <section class="fw-section has-bg brd-bottom brd-primary">
     <div class="container">
         <h2 class="fw-section--title">5. Button With Left Icon</h2>
-        <a class="fw-btn btn-primary btn-icon btn-icon-left lni-chevron-left" href="#">
+        <a class="fw-btn btn-primary btn-icon btn-icon-left icon-angle-left" href="#">
             Left Chevron
         </a>
     </div>
@@ -57,7 +57,7 @@
 <section class="fw-section has-bg brd-bottom brd-secondary">
     <div class="container">
         <h2 class="fw-section--title">6. Button With Right Icon</h2>
-        <a class="fw-btn btn-primary btn-icon btn-icon-right lni-chevron-right" href="#">
+        <a class="fw-btn btn-primary btn-icon btn-icon-right icon-angle-right" href="#">
             Right Chevron
         </a>
     </div>

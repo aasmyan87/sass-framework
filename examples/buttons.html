@@ -43,7 +43,20 @@
                 <span></span>
                 <span></span>
             </button>
-            <a class="fw-logo" href="./">
+            <a title="My Project" class="fw-logo d-none d-lg-block" href="./">
+                <!--Add your Logo-->
+                    <picture class="">
+        <source srcset="../dist/images/logo.svg 1x, ../dist/images/logo.svg 2x">
+        <source srcset="../dist/images/logo.svg" media="(max-width: 767px)">
+        <img
+            width=""
+            height=""
+            src="../dist/images/logo.svg"
+            alt="Your Logo"
+            fetchpriority="high"                    />
+    </picture>
+                </a>
+            <a title="My Project" class="fw-logo d-lg-none text-center" href="./">
                 <!--Add your Logo-->
                     <picture class="">
         <source srcset="../dist/images/logo.svg 1x, ../dist/images/logo.svg 2x">
@@ -59,7 +72,7 @@
             <nav role="navigation" class="mobile-nav_js fw-menu">
     <div class="fw-menu--mobile-head">
         <div class="fw-menu--head-logo">
-            <a href="./">
+            <a title="My Project" href="./">
                 <!--Add your Logo-->
                     <picture class="">
         <source srcset="../dist/images/logo.svg 1x, ../dist/images/logo.svg 2x">
@@ -106,10 +119,6 @@
                                                             <li >
                                     <a href="header-transparent.html">
                                         Transparent                                    </a>
-                                                                    </li>
-                                                            <li >
-                                    <a href="header-flipping.html">
-                                        Flipping Menu                                    </a>
                                                                     </li>
                                                     </ul>
                                     </li>
@@ -262,7 +271,7 @@
 <section class="fw-section has-bg brd-bottom brd-primary">
     <div class="container">
         <h2 class="fw-section--title">5. Button With Left Icon</h2>
-        <a class="fw-btn btn-primary btn-icon btn-icon-left lni-chevron-left" href="#">
+        <a class="fw-btn btn-primary btn-icon btn-icon-left icon-angle-left" href="#">
             Left Chevron
         </a>
     </div>
@@ -271,7 +280,7 @@
 <section class="fw-section has-bg brd-bottom brd-secondary">
     <div class="container">
         <h2 class="fw-section--title">6. Button With Right Icon</h2>
-        <a class="fw-btn btn-primary btn-icon btn-icon-right lni-chevron-right" href="#">
+        <a class="fw-btn btn-primary btn-icon btn-icon-right icon-angle-right" href="#">
             Right Chevron
         </a>
     </div>

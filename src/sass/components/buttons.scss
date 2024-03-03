@@ -113,13 +113,13 @@
 }
 .btn-icon-left{
   &:before{
-    margin-right: 6px;
+    margin-right: 10px;
   }
 }
 .btn-icon-right{
   flex-flow: row-reverse;
   &:before{
-    margin-left: 6px;
+    margin-left: 10px;
   }
 }
 

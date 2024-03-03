@@ -54,19 +54,19 @@
             <div class="row gy-15">
                 <div class="col-sm-12">
                     <label for="firstname" class="fw-label">First Name</label>
-                    <div class="fw-input-icon lni-user">
+                    <div class="fw-input-icon icon-user">
                         <input required type="text" name="firstname" id="firstname"  class="fw-input input-primary" placeholder="First Name">
                     </div>
                 </div>
                 <div class="col-sm-12">
                     <label for="lastname" class="fw-label">Last Name</label>
-                    <div class="fw-input-icon lni-user">
+                    <div class="fw-input-icon icon-user">
                         <input required type="text" name="lastname" id="lastname" class="fw-input input-primary" placeholder="Last Name">
                     </div>
                 </div>
                 <div class="col-sm-12">
                     <label for="email" class="fw-label">Email</label>
-                    <div class="fw-input-icon lni-envelope">
+                    <div class="fw-input-icon icon-mail-alt">
                         <input required type="email" id="email" name="email" class="fw-input input-primary" placeholder="Email">
                     </div>
                 </div>

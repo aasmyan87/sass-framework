@@ -45,7 +45,20 @@
                 <span></span>
                 <span></span>
             </button>
-            <a class="fw-logo" href="./">
+            <a title="My Project" class="fw-logo d-none d-lg-block" href="./">
+                <!--Add your Logo-->
+                    <picture class="">
+        <source srcset="../dist/images/logo.svg 1x, ../dist/images/logo.svg 2x">
+        <source srcset="../dist/images/logo.svg" media="(max-width: 767px)">
+        <img
+            width=""
+            height=""
+            src="../dist/images/logo.svg"
+            alt="Your Logo"
+            fetchpriority="high"                    />
+    </picture>
+                </a>
+            <a title="My Project" class="fw-logo d-lg-none text-center" href="./">
                 <!--Add your Logo-->
                     <picture class="">
         <source srcset="../dist/images/logo.svg 1x, ../dist/images/logo.svg 2x">
@@ -61,7 +74,7 @@
             <nav role="navigation" class="mobile-nav_js fw-menu">
     <div class="fw-menu--mobile-head">
         <div class="fw-menu--head-logo">
-            <a href="./">
+            <a title="My Project" href="./">
                 <!--Add your Logo-->
                     <picture class="">
         <source srcset="../dist/images/logo.svg 1x, ../dist/images/logo.svg 2x">
@@ -108,10 +121,6 @@
                                                             <li >
                                     <a href="header-transparent.html">
                                         Transparent                                    </a>
-                                                                    </li>
-                                                            <li >
-                                    <a href="header-flipping.html">
-                                        Flipping Menu                                    </a>
                                                                     </li>
                                                     </ul>
                                     </li>
@@ -246,10 +255,10 @@
                     </div>
         <div class="fw-fsl--arrw">
             <button aria-label="Prev Slide" class="arrw-prev">
-                <i class="lni lni-chevron-left"></i>
+                <i class="icon-angle-left"></i>
             </button>
             <button aria-label="Next Slide" class="arrw-next">
-                <i class="lni lni-chevron-right"></i>
+                <i class="icon-angle-right"></i>
             </button>
         </div>
         <div id="fw-fsl-dots_js" class="fw-fsl--dots"></div>

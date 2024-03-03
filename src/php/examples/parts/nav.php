@@ -32,11 +32,6 @@ function get_menu(){
                     'link' => 'header-transparent.html',
                     'class' => '',
                 ],
-                6 => [
-                    'label' => 'Flipping Menu',
-                    'link' => 'header-flipping.html',
-                    'class' => '',
-                ],
             ]
         ],
 

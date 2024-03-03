@@ -44,7 +44,20 @@
                 <span></span>
                 <span></span>
             </button>
-            <a class="fw-logo" href="./">
+            <a title="My Project" class="fw-logo d-none d-lg-block" href="./">
+                <!--Add your Logo-->
+                    <picture class="">
+        <source srcset="../dist/images/logo.svg 1x, ../dist/images/logo.svg 2x">
+        <source srcset="../dist/images/logo.svg" media="(max-width: 767px)">
+        <img
+            width=""
+            height=""
+            src="../dist/images/logo.svg"
+            alt="Your Logo"
+            fetchpriority="high"                    />
+    </picture>
+                </a>
+            <a title="My Project" class="fw-logo d-lg-none text-center" href="./">
                 <!--Add your Logo-->
                     <picture class="">
         <source srcset="../dist/images/logo.svg 1x, ../dist/images/logo.svg 2x">
@@ -58,11 +71,11 @@
     </picture>
                 </a>
             <nav role="navigation" class="mobile-nav_js fw-menu">
-                <div class="fw-menu--mobile-head">
-                    <div class="fw-menu--head-logo">
-                        <a href="./">
-                            <!--Add your Logo-->
-                                <picture class="">
+    <div class="fw-menu--mobile-head">
+        <div class="fw-menu--head-logo">
+            <a title="My Project" href="./">
+                <!--Add your Logo-->
+                    <picture class="">
         <source srcset="../dist/images/logo.svg 1x, ../dist/images/logo.svg 2x">
         <source srcset="../dist/images/logo.svg" media="(max-width: 767px)">
         <img
@@ -72,71 +85,123 @@
             alt="Your Logo"
             fetchpriority="high"                    />
     </picture>
-                            </a>
-                    </div>
-                    <button aria-label="" class="menu-close-btn menu-close-btn_js">
-                        <span></span>
-                        <span></span>
-                    </button>
-                </div>
-                <div class="fw-menu--mobile-body">
-                    <!--Start Menu -->
-                    <ul class="general-menu_js fw-menu--nav">
-                        <!--  1 Level-->
-                                                    <li >
-                                <a href="index.html">
-                                    Home                                </a>
-                                                            </li>
-                                                    <li >
-                                <a href="about.html">
-                                    About                                </a>
-                                                            </li>
-                                                    <li class=menu-item-has-children>
-                                <a href="#">
-                                    Links                                </a>
-                                                                                                        <ul class="fw-menu--sub sub-menu_js">
-                                        <!--  2 Level-->
-                                                                                    <li class=menu-item-has-children>
-                                                <a href="#link1">
-                                                    Label 1                                                </a>
-                                                                                                                                                                                                                <ul class="fw-menu--sub sub-menu_js">
-                                                            <!--  3 Level-->
-                                                                                                                                    <li>
-                                                                        <a href="#link1">
-                                                                            Label 4                                                                        </a>
-                                                                    </li>
-                                                                                                                                    <li>
-                                                                        <a href="#link1">
-                                                                            Label 4                                                                        </a>
-                                                                    </li>
-                                                                                                                        </ul>
-                                                                                                                                                </li>
-                                                                                    <li class=menu-item-has-children>
-                                                <a href="#link1">
-                                                    Label 1                                                </a>
-                                                                                                                                                                                                                <ul class="fw-menu--sub sub-menu_js">
-                                                            <!--  3 Level-->
-                                                                                                                                    <li>
-                                                                        <a href="#link1">
-                                                                            Label 4                                                                        </a>
-                                                                    </li>
-                                                                                                                                    <li>
-                                                                        <a href="#link1">
-                                                                            Label 4                                                                        </a>
-                                                                    </li>
-                                                                                                                        </ul>
-                                                                                                                                                </li>
-                                                                                    <li >
-                                                <a href="#link3">
-                                                    Label 3                                                </a>
-                                                                                            </li>
-                                                                            </ul>
-                                                            </li>
-                                            </ul>
-                    <!--End Menu -->
-                </div>
-            </nav>
+                </a>
         </div>
+        <button aria-label="Close Mobile Menu" class="menu-close-btn menu-close-btn_js">
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <div class="fw-menu--mobile-body">
+        <!--Start Menu -->
+        <ul class="general-menu_js fw-menu--nav">
+            <!--  1 Level-->
+                            <li class=menu-item-has-children>
+                    <a href="#">
+                        Menu Sub - 1 Level                    </a>
+                                            <ul class="fw-menu--sub sub-menu_js">
+                            <!--  2 Level-->
+                                                            <li >
+                                    <a href="#">
+                                        Label 1                                    </a>
+                                                                    </li>
+                                                            <li >
+                                    <a href="#">
+                                        Label 2                                    </a>
+                                                                    </li>
+                                                            <li >
+                                    <a href="#">
+                                        Label 3                                    </a>
+                                                                    </li>
+                                                            <li >
+                                    <a href="#">
+                                        Label 4                                    </a>
+                                                                    </li>
+                                                            <li >
+                                    <a href="#">
+                                        Label 5                                    </a>
+                                                                    </li>
+                                                    </ul>
+                                    </li>
+                            <li class=menu-item-has-children>
+                    <a href="#">
+                        Menu Sub - 2 Level                    </a>
+                                            <ul class="fw-menu--sub sub-menu_js">
+                            <!--  2 Level-->
+                                                            <li class=menu-item-has-children>
+                                    <a href="#">
+                                        Label 1                                    </a>
+                                                                                                                        <ul class="fw-menu--sub sub-menu_js">
+                                                <!--  3 Level-->
+                                                                                                    <li>
+                                                        <a href="#link1">
+                                                            Label 1                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="#link1">
+                                                            Label 2                                                        </a>
+                                                    </li>
+                                                                                            </ul>
+                                                                                                            </li>
+                                                            <li class=menu-item-has-children>
+                                    <a href="#link1">
+                                        Label 2                                    </a>
+                                                                                                                        <ul class="fw-menu--sub sub-menu_js">
+                                                <!--  3 Level-->
+                                                                                                    <li>
+                                                        <a href="#link1">
+                                                            Label 1                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="#link1">
+                                                            Label 2                                                        </a>
+                                                    </li>
+                                                                                            </ul>
+                                                                                                            </li>
+                                                            <li class=menu-item-has-children>
+                                    <a href="#">
+                                        Label 3                                    </a>
+                                                                                                                        <ul class="fw-menu--sub sub-menu_js">
+                                                <!--  3 Level-->
+                                                                                                    <li>
+                                                        <a href="#">
+                                                            Label 1                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="#">
+                                                            Label 2                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="#">
+                                                            Label 3                                                        </a>
+                                                    </li>
+                                                                                            </ul>
+                                                                                                            </li>
+                                                    </ul>
+                                    </li>
+                            <li class=menu-item-has-children>
+                    <a href="#">
+                        Simple Links                    </a>
+                                            <ul class="fw-menu--sub sub-menu_js">
+                            <!--  2 Level-->
+                                                            <li >
+                                    <a href="#">
+                                        Label 1                                    </a>
+                                                                    </li>
+                                                            <li >
+                                    <a href="#">
+                                        Label 2                                    </a>
+                                                                    </li>
+                                                            <li >
+                                    <a href="#">
+                                        Label 3                                    </a>
+                                                                    </li>
+                                                    </ul>
+                                    </li>
+                    </ul>
+        <!--End Menu -->
+    </div>
+</nav>        </div>
     </div>
 </header>
 <main class="fw-main"><main class="fw-main">

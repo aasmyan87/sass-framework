@@ -28,7 +28,7 @@ $slides = [
     <div class="container">
         <div class="fw-gsl">
             <button aria-label="Prev Slide" class="arrw-prev remove-gsl-arrow-preload">
-                <i class="lni lni-chevron-left"></i>
+                <i class="icon-angle-left"></i>
             </button>
             <div class="fw-gsl--outer remove-gsl-preload-height">
                 <div id="grid-slider_js" class="slick-slider slick-preloader">
@@ -43,7 +43,7 @@ $slides = [
                 <div id="fw-fgl-dots_js" class="fw-fgl--dots"></div>
             </div>
             <button aria-label="Next Slide" class="arrw-next remove-gsl-arrow-preload">
-                <i class="lni lni-chevron-right"></i>
+                <i class="icon-angle-right"></i>
             </button>
             <div id="fw-gsl-dots_js" class="fw-gsl--dots"></div>
         </div>

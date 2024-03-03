@@ -1,7 +1,8 @@
 <?php
     include(dirname(__DIR__).'/inc/head.php');
     include (dirname(__DIR__).'/parts/nav.php');
-
+    $website_title = 'My Project';
+    global $website_title;
 ?>
 
 <!--header-fixed, header-jump_js, header-reduce_js, header-transparent_js -->
@@ -13,7 +14,11 @@
                 <span></span>
                 <span></span>
             </button>
-            <a class="fw-logo" href="./">
+            <a title="<?php echo $website_title; ?>" class="fw-logo d-none d-lg-block" href="./">
+                <!--Add your Logo-->
+                <?php theme_get_picture('logo.svg', 'logo.svg', '', 'Your Logo', '', true) ?>
+            </a>
+            <a title="<?php echo $website_title; ?>" class="fw-logo d-lg-none text-center" href="./">
                 <!--Add your Logo-->
                 <?php theme_get_picture('logo.svg', 'logo.svg', '', 'Your Logo', '', true) ?>
             </a>
