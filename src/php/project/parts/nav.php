@@ -46,26 +46,26 @@ function get_menu(){
                     'submenu2' => [
                         1 => [
                             'label' => 'Label 1',
-                            'link' => '#link1',
+                            'link' => '#',
                         ],
                         2 => [
                             'label' => 'Label 2',
-                            'link' => '#link1',
+                            'link' => '#',
                         ],
                     ]
                 ],
                 2 => [
                     'label' => 'Label 2',
-                    'link' => '#link1',
+                    'link' => '#',
                     'class' => 'menu-item-has-children',
                     'submenu2' => [
                         1 => [
                             'label' => 'Label 1',
-                            'link' => '#link1',
+                            'link' => '#',
                         ],
                         2 => [
                             'label' => 'Label 2',
-                            'link' => '#link1',
+                            'link' => '#',
                         ],
                     ]
                 ],
