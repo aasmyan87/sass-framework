@@ -26,10 +26,10 @@
                             <?php theme_get_picture('logo.svg', 'logo.svg', '', 'Your Logo', '', true) ?>
                         </a>
                     </div>
-                    <div class="menu-close-btn menu-close-btn_js">
+                    <button aria-label="" class="menu-close-btn menu-close-btn_js">
                         <span></span>
                         <span></span>
-                    </div>
+                    </button>
                 </div>
                 <div class="fw-menu--mobile-body">
                     <!--Start Menu -->
