@@ -9,11 +9,11 @@
 <header class="fw-header--outer <?php header_effect_type() ?>">
     <div class="fw-header">
         <div class="fw-header--container">
-            <div class="menu-open-btn menu-open-btn_js">
+            <button aria-label="Open Mobile Menu" class="menu-open-btn menu-open-btn_js">
                 <span></span>
                 <span></span>
                 <span></span>
-            </div>
+            </button>
             <a class="fw-logo" href="./">
                 <!--Add your Logo-->
                 <?php theme_get_picture('logo.svg', 'logo.svg', '', 'Your Logo', '', true) ?>

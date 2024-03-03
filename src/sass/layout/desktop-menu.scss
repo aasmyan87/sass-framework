@@ -189,13 +189,13 @@
   }
 }
 
+
 //  No Display: Mobile Styles
 .menu-overlay,
-.menu-open-btn,
-.mobile-menu-icon,
-.icon-symbol, .icon-symbol::before {
+.menu-open-btn {
   display: none;
 }
+
 
 // ANIMATION: submenu expand
 @keyframes sub-menu-expand--first {
@@ -282,7 +282,6 @@
   }
 }
 
-
 //  EXTENSIONS: desktop sub menu icon
 .fw-menu--sub {
   > li{
@@ -305,13 +304,11 @@
   }
 }
 
-
 //  EXTENSIONS: desktop sub menu bottom border
 .fw-menu--sub{
   @media screen and (min-width: $media_before_collapse) {
     border-bottom: $ext_dsmbb_border_width solid $ext_dsmbb_border_color;
   }
 }
-
 
 

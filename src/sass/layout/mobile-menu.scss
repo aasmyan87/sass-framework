@@ -214,17 +214,19 @@
     }
   }
   //  Buttons: Buttons Base
-  .menu-open-btn_js, .menu-close-btn {
+  .menu-open-btn, .menu-close-btn {
     cursor: pointer;
     display: flex;
     flex-flow: column;
     justify-content: center;
+    background-color: transparent;
+    border: none;
     span {
       display: block;
     }
   }
   //  Buttons: Mobile Menu Open Button
-  .menu-open-btn_js {
+  .menu-open-btn {
     padding: 15px 15px 15px 0;
 
     span {
@@ -243,7 +245,6 @@
   .menu-close-btn {
     padding: 15px 0;
     margin-left: auto;
-    border: none;
     span {
       background-color: $mobile_menu_button_close_btn_color;
       height: 4px;

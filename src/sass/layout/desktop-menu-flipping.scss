@@ -217,6 +217,12 @@
   }
 }
 
+//  No Display: Mobile Styles
+.menu-overlay,
+.menu-open-btn {
+  display: none;
+}
+
 
 // ANIMATION: submenu expand
 @keyframes sub-menu-expand--first {
@@ -334,10 +340,4 @@
     border-bottom: $ext_dsmbb_border_width solid $ext_dsmbb_border_color;
   }
 }
-
-.parent-menu-item{
-  font-weight: bold;
-  font-size: 22px;
-}
-
 
